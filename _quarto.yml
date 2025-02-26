@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "tkdhss111.github.io"
+  title: "竹田研究室（Takeda Lab.）"
   navbar:
     left:
       - href: index.qmd

@@ -1,11 +1,51 @@
 ---
-title: "tkdhss111.github.io"
+title: "Home"
 ---
 
-This is a Quarto website.
+## 教員
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+東京国際大学 データサイエンス教育研究所  
+教授　竹田 恒  
+修士（工学），統計学修士，博士（統計科学）
 
-```{r}
-1 + 1
-```
+〒170-0013 東京都豊島区東池袋 4-42-31  
+インターナショナルタワー1813号室
+
+E-mail: htakeda at tiu.ac.jp
+
+Hisashi Takeda, Ph.D.  
+Professor of Data Science  
+Institute for Data Science Education  
+Tokyo International University  
+4-42-31 Higashiikebukuro, Toshima-ku, Tokyo 170-0013
+
+## 担当授業
+
+1. オープンキャンパス
+1. 初年次演習（1年春学期）
+1. 初年次演習（1年秋学期）
+1. 基礎数学（1年春学期）
+1. 確率・統計（1年秋学期）
+1. ビジネス アナリティクス（2年春学期）
+1. 機械学習（2年秋学期）
+1. Rプログラミング（3年春学期）
+1. 専門演習（3年春学期）
+1. 専門演習（3年秋学期）
+1. 専門演習（4年春学期）
+1. 専門演習（4年秋学期）
+
+## 研究分野
+
+1. 電力需要予測
+2. 電力市場価格予測
+3. 再生可能エネルギー予測
+4. ソフトウェア開発
+
+
+
+
+
+
+
+
+

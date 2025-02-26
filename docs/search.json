@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "tkdhss111.github.io",
+    "title": "Home",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "東京国際大学 データサイエンス教育研究所\n教授　竹田 恒\n修士（工学），統計学修士，博士（統計科学）\n〒170-0013 東京都豊島区東池袋 4-42-31\nインターナショナルタワー1813号室\nE-mail: htakeda at tiu.ac.jp\nHisashi Takeda, Ph.D.\nProfessor of Data Science\nInstitute for Data Science Education\nTokyo International University\n4-42-31 Higashiikebukuro, Toshima-ku, Tokyo 170-0013"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,26 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#教員",
+    "href": "index.html#教員",
+    "title": "Home",
+    "section": "",
+    "text": "東京国際大学 データサイエンス教育研究所\n教授　竹田 恒\n修士（工学），統計学修士，博士（統計科学）\n〒170-0013 東京都豊島区東池袋 4-42-31\nインターナショナルタワー1813号室\nE-mail: htakeda at tiu.ac.jp\nHisashi Takeda, Ph.D.\nProfessor of Data Science\nInstitute for Data Science Education\nTokyo International University\n4-42-31 Higashiikebukuro, Toshima-ku, Tokyo 170-0013"
+  },
+  {
+    "objectID": "index.html#担当授業",
+    "href": "index.html#担当授業",
+    "title": "Home",
+    "section": "担当授業",
+    "text": "担当授業\n\nオープンキャンパス\n初年次演習（1年春学期）\n初年次演習（1年秋学期）\n基礎数学（1年春学期）\n確率・統計（1年秋学期）\nビジネス アナリティクス（2年春学期）\n機械学習（2年秋学期）\nRプログラミング（3年春学期）\n専門演習（3年春学期）\n専門演習（3年秋学期）\n専門演習（4年春学期）\n専門演習（4年秋学期）"
+  },
+  {
+    "objectID": "index.html#研究分野",
+    "href": "index.html#研究分野",
+    "title": "Home",
+    "section": "研究分野",
+    "text": "研究分野\n\n電力需要予測\n電力市場価格予測\n再生可能エネルギー予測\nソフトウェア開発"
   }
 ]
