@@ -1,0 +1,10 @@
+---
+title: "所在地"
+---
+
+〒170-0013 東京都豊島区東池袋 4-42-31  
+インターナショナルタワー1813号室
+
+4-42-31 Higashiikebukuro, Toshima-ku, Tokyo 170-0013
+
+![池袋キャンパス](fig/ikebukuro_campus.png)
