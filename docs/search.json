@@ -7,183 +7,92 @@
     "text": "教員\n\n\n授業\n\n\n研究"
   },
   {
-    "objectID": "index.html#教員",
-    "href": "index.html#教員",
-    "title": "ホームページ",
-    "section": "",
-    "text": "東京国際大学 データサイエンス教育研究所\n教授　竹田 恒\n修士（工学），統計学修士，博士（統計科学）\nE-mail: htakeda at tiu.ac.jp\nHisashi Takeda, Ph.D.\nProfessor of Data Science\nInstitute for Data Science Education\nTokyo International University"
-  },
-  {
-    "objectID": "index.html#担当授業",
-    "href": "index.html#担当授業",
-    "title": "ホームページ",
-    "section": "担当授業",
-    "text": "担当授業\n\nオープンキャンパス\n初年次演習（1年春学期）\n初年次演習（1年秋学期）\n基礎数学（1年春学期）\n確率・統計（1年秋学期）\nビジネス アナリティクス（2年春学期）\n機械学習（2年秋学期）\nRプログラミング（3年春学期）\n専門演習（3年春学期）\n専門演習（3年秋学期）\n専門演習（4年春学期）\n専門演習（4年秋学期）"
-  },
-  {
-    "objectID": "index.html#研究分野",
-    "href": "index.html#研究分野",
-    "title": "ホームページ",
-    "section": "研究分野",
-    "text": "研究分野\n\nデータサイエンス教育方法論\n電力需要/市場取引価格予測\n再生可能エネルギー予測\nソフトウェア開発（GitHub）"
-  },
-  {
-    "objectID": "01_about/about.html",
-    "href": "01_about/about.html",
-    "title": "所在地",
-    "section": "",
-    "text": "〒170-0013 東京都豊島区東池袋 4-42-31\nインターナショナルタワー1813号室\n4-42-31 Higashiikebukuro, Toshima-ku, Tokyo 170-0013\n\n\n\n池袋キャンパス"
-  },
-  {
-    "objectID": "02_resume/resume.html",
-    "href": "02_resume/resume.html",
-    "title": "竹田研究室（Takeda Lab.）",
-    "section": "",
-    "text": "東京国際大学 データサイエンス教育研究所\n教授　竹田 恒\n修士（工学），統計学修士，博士（統計科学）\nE-mail: htakeda at tiu.ac.jp\nHisashi Takeda, Ph.D.\nProfessor of Data Science\nInstitute for Data Science Education\nTokyo International University\nEnglish"
-  },
-  {
-    "objectID": "02_resume/resume.html#学歴",
-    "href": "02_resume/resume.html#学歴",
-    "title": "竹田研究室（Takeda Lab.）",
-    "section": "学歴",
-    "text": "学歴\n\n筑波大学 第三学類 基礎工学類 変換工学専攻\n筑波大学大学院 工学研究科 構造工学専攻 修士（工学）\nコロンビア大学大学院 統計学科 統計学修士\n総合研究大学院大学 複合科学研究科 統計科学専攻 博士（統計科学）"
-  },
-  {
-    "objectID": "02_resume/resume.html#職歴",
-    "href": "02_resume/resume.html#職歴",
-    "title": "竹田研究室（Takeda Lab.）",
-    "section": "職歴",
-    "text": "職歴\n\n東京電力ＨＤ 経営戦略調査室 スペシャリスト（応用統計技術）\n2021年10月より，東京国際大学 データサイエンス教育研究所 教授"
-  },
-  {
-    "objectID": "02_resume/resume.html#研究",
-    "href": "02_resume/resume.html#研究",
-    "title": "竹田研究室（Takeda Lab.）",
-    "section": "研究",
-    "text": "研究\n電力需要，再生可能エネルギー，市場価格などの時系列データを用いた予測技術について研究開発，国家プロジェクトに参画\n\n電力需要分析（状態空間モデル）\n\n\n\nでんき予報（東京電力ＰＧ）"
-  },
-  {
-    "objectID": "index.html#授業",
-    "href": "index.html#授業",
-    "title": "ホームページ",
-    "section": "授業",
-    "text": "授業"
-  },
-  {
-    "objectID": "index.html#分野",
-    "href": "index.html#分野",
-    "title": "ホームページ",
-    "section": "分野",
-    "text": "分野\n\nデータサイエンス教育方法論\n電力需要/市場取引価格予測\n再生可能エネルギー予測\nソフトウェア開発（GitHub）"
-  },
-  {
-    "objectID": "index.html#研究",
-    "href": "index.html#研究",
-    "title": "ホームページ",
-    "section": "研究",
-    "text": "研究"
-  },
-  {
-    "objectID": "04_research/research.html",
-    "href": "04_research/research.html",
-    "title": "研究分野",
-    "section": "",
-    "text": "データサイエンス教育方法論\n電力需要/市場取引価格予測\n再生可能エネルギー予測\nソフトウェア開発（GitHub）\n\n\n電力需要，再生可能エネルギー，市場価格などの時系列データを用いた予測技術について研究開発，国家プロジェクトに参画\n\n電力需要分析（状態空間モデル）\n\n\n\nでんき予報（東京電力ＰＧ）"
-  },
-  {
     "objectID": "03_lecture/lecture.html",
     "href": "03_lecture/lecture.html",
-    "title": "担当授業",
+    "title": "授業",
     "section": "",
     "text": "オープンキャンパス\n初年次演習（1年春学期）\n初年次演習（1年秋学期）\n基礎数学（1年春学期）\n確率・統計（1年秋学期）\nビジネス アナリティクス（2年春学期）\n機械学習（2年秋学期）\nRプログラミング（3年春学期）\n専門演習（3年春学期）\n専門演習（3年秋学期）\n専門演習（4年春学期）\n専門演習（4年秋学期）"
   },
   {
-    "objectID": "03_lecture/03_business_analytics/business_analytics.html",
-    "href": "03_lecture/03_business_analytics/business_analytics.html",
+    "objectID": "03_lecture/course=03_business_analytics/course=03_business_analytics.html",
+    "href": "03_lecture/course=03_business_analytics/course=03_business_analytics.html",
     "title": "ビジネス アナリティクス",
     "section": "",
     "text": "マークダウン記法 演習"
   },
   {
-    "objectID": "03_lecture/lecture.html#footnotes",
-    "href": "03_lecture/lecture.html#footnotes",
-    "title": "担当授業",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\n03_lecture/03_business_analytics/business_analytics.html↩︎"
-  },
-  {
-    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#online-markdown-editor-dillinger",
-    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#online-markdown-editor-dillinger",
+    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#online-markdown-editor-dillinger",
+    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#online-markdown-editor-dillinger",
     "title": "マークダウン記法 演習",
     "section": "1.1 Online Markdown Editor – Dillinger",
     "text": "1.1 Online Markdown Editor – Dillinger\nhttps://dillinger.io"
   },
   {
-    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#オプション設定画面",
-    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#オプション設定画面",
+    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#オプション設定画面",
+    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#オプション設定画面",
     "title": "マークダウン記法 演習",
     "section": "1.2 オプション設定画面",
     "text": "1.2 オプション設定画面\n「Scroll Sync」をONにすると編集画面と表示画面が同期1する。\n\n\n\nオプション設定画面\n\n\n同時にスクロール"
   },
   {
-    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#改行",
-    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#改行",
+    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#改行",
+    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#改行",
     "title": "マークダウン記法 演習",
     "section": "2.1 改行",
     "text": "2.1 改行\n\n改行は行末に２つの半角スペースを入れる。\nバックスラッシュ「/」を入れる。"
   },
   {
-    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#見出し",
-    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#見出し",
+    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#見出し",
+    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#見出し",
     "title": "マークダウン記法 演習",
     "section": "2.2 見出し",
     "text": "2.2 見出し"
   },
   {
-    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#箇条書き",
-    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#箇条書き",
+    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#箇条書き",
+    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#箇条書き",
     "title": "マークダウン記法 演習",
     "section": "2.3 箇条書き",
     "text": "2.3 箇条書き"
   },
   {
-    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#修飾",
-    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#修飾",
+    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#修飾",
+    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#修飾",
     "title": "マークダウン記法 演習",
     "section": "2.4 修飾",
     "text": "2.4 修飾"
   },
   {
-    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#引用",
-    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#引用",
+    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#引用",
+    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#引用",
     "title": "マークダウン記法 演習",
     "section": "2.5 引用",
     "text": "2.5 引用"
   },
   {
-    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#ハイパーリンク",
-    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#ハイパーリンク",
+    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#ハイパーリンク",
+    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#ハイパーリンク",
     "title": "マークダウン記法 演習",
     "section": "2.6 ハイパーリンク",
     "text": "2.6 ハイパーリンク"
   },
   {
-    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#数式",
-    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#数式",
+    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#数式",
+    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#数式",
     "title": "マークダウン記法 演習",
     "section": "2.7 数式",
     "text": "2.7 数式\n数式をインライン（行内；文字の高さで）表示させるには， 数式をLaTeX方式で表記したものを$マークで括る。 \nセンタリング（中央寄せ）し正しい大きさで数式表示する場合， $$マークでる。\n \n\\(x\\)と\\(dx\\)の間の半角スペースは，「～」を使う。"
   },
   {
-    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#表",
-    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#表",
+    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#表",
+    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#表",
     "title": "マークダウン記法 演習",
     "section": "2.8 表",
     "text": "2.8 表"
   },
   {
-    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#図",
-    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#図",
+    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#図",
+    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#図",
     "title": "マークダウン記法 演習",
     "section": "2.9 図",
     "text": "2.9 図\n単発的な図を掲載する記法\n\n図を掲載する場所が複数あるときに便利な記法"

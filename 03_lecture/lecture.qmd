@@ -1,5 +1,5 @@
 ---
-title: "担当授業"
+title: "授業"
 ---
 
 1. オープンキャンパス
@@ -15,4 +15,4 @@ title: "担当授業"
 1. 専門演習（4年春学期）
 1. 専門演習（4年秋学期）
 
-[3]: 03_business_analytics/business_analytics.html
+[3]: course=03_business_analytics/course=03_business_analytics.html

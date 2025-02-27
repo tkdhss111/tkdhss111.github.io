@@ -1,10 +1,10 @@
 ---
 title: "マークダウン記法 演習"
 subtitle: "Topic 07"
-author: "Hisashi Takeda, Ph.D."
-institute: "Tokyo International University"
 format:
   revealjs:
+    author: Hisashi Takeda, Ph.D.
+    date: last-modified
     toc: true
     slide-number: true
     number-sections: true
@@ -17,9 +17,8 @@ format:
     smaller: false 
     scrollable: true
     lang: "ja"
-    footer: "htakeda@tiu.ac.jp"
-    theme: [default, ../../css/slide.scss]
-    logo: ../../css/tiu.png
+    theme: [default, ../../../css/slide.scss]
+    logo: ../../../css/takenoko.png
     embed-resources: false 
 ---
 
