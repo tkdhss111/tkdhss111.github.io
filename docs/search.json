@@ -96,5 +96,96 @@
     "title": "担当授業",
     "section": "",
     "text": "オープンキャンパス\n初年次演習（1年春学期）\n初年次演習（1年秋学期）\n基礎数学（1年春学期）\n確率・統計（1年秋学期）\nビジネス アナリティクス（2年春学期）\n機械学習（2年秋学期）\nRプログラミング（3年春学期）\n専門演習（3年春学期）\n専門演習（3年秋学期）\n専門演習（4年春学期）\n専門演習（4年秋学期）"
+  },
+  {
+    "objectID": "03_lecture/03_business_analytics/business_analytics.html",
+    "href": "03_lecture/03_business_analytics/business_analytics.html",
+    "title": "ビジネス アナリティクス",
+    "section": "",
+    "text": "マークダウン記法 演習"
+  },
+  {
+    "objectID": "03_lecture/lecture.html#footnotes",
+    "href": "03_lecture/lecture.html#footnotes",
+    "title": "担当授業",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n03_lecture/03_business_analytics/business_analytics.html↩︎"
+  },
+  {
+    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#online-markdown-editor-dillinger",
+    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#online-markdown-editor-dillinger",
+    "title": "マークダウン記法 演習",
+    "section": "1.1 Online Markdown Editor – Dillinger",
+    "text": "1.1 Online Markdown Editor – Dillinger\nhttps://dillinger.io"
+  },
+  {
+    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#オプション設定画面",
+    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#オプション設定画面",
+    "title": "マークダウン記法 演習",
+    "section": "1.2 オプション設定画面",
+    "text": "1.2 オプション設定画面\n「Scroll Sync」をONにすると編集画面と表示画面が同期1する。\n\n\n\nオプション設定画面\n\n\n同時にスクロール"
+  },
+  {
+    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#改行",
+    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#改行",
+    "title": "マークダウン記法 演習",
+    "section": "2.1 改行",
+    "text": "2.1 改行\n\n改行は行末に２つの半角スペースを入れる。\nバックスラッシュ「/」を入れる。"
+  },
+  {
+    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#見出し",
+    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#見出し",
+    "title": "マークダウン記法 演習",
+    "section": "2.2 見出し",
+    "text": "2.2 見出し"
+  },
+  {
+    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#箇条書き",
+    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#箇条書き",
+    "title": "マークダウン記法 演習",
+    "section": "2.3 箇条書き",
+    "text": "2.3 箇条書き"
+  },
+  {
+    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#修飾",
+    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#修飾",
+    "title": "マークダウン記法 演習",
+    "section": "2.4 修飾",
+    "text": "2.4 修飾"
+  },
+  {
+    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#引用",
+    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#引用",
+    "title": "マークダウン記法 演習",
+    "section": "2.5 引用",
+    "text": "2.5 引用"
+  },
+  {
+    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#ハイパーリンク",
+    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#ハイパーリンク",
+    "title": "マークダウン記法 演習",
+    "section": "2.6 ハイパーリンク",
+    "text": "2.6 ハイパーリンク"
+  },
+  {
+    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#数式",
+    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#数式",
+    "title": "マークダウン記法 演習",
+    "section": "2.7 数式",
+    "text": "2.7 数式\n数式をインライン（行内；文字の高さで）表示させるには， 数式をLaTeX方式で表記したものを$マークで括る。 \nセンタリング（中央寄せ）し正しい大きさで数式表示する場合， $$マークでる。\n \n\\(x\\)と\\(dx\\)の間の半角スペースは，「～」を使う。"
+  },
+  {
+    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#表",
+    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#表",
+    "title": "マークダウン記法 演習",
+    "section": "2.8 表",
+    "text": "2.8 表"
+  },
+  {
+    "objectID": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#図",
+    "href": "03_lecture/03_business_analytics/07_markdown_exercise/markdown_exercise.html#図",
+    "title": "マークダウン記法 演習",
+    "section": "2.9 図",
+    "text": "2.9 図\n単発的な図を掲載する記法\n\n図を掲載する場所が複数あるときに便利な記法"
   }
 ]

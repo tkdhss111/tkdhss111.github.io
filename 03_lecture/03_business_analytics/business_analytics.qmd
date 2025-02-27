@@ -1,0 +1,7 @@
+---
+title: "ビジネス アナリティクス"
+---
+
+1. [マークダウン記法 演習][1]
+
+[1]: 07_markdown_exercise/markdown_exercise.html

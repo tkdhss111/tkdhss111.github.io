@@ -1,13 +1,6 @@
 project:
   type: website
   output-dir: docs
-  render:
-    - index.qmd
-    - 01_about/about.qmd
-    - 02_resume/resume.qmd
-    - 03_lecture/lecture.qmd
-    - 04_research/research.qmd
-    - topic*.qmd
 
 website:
   title: "竹田研究室（Takeda Lab.）"
@@ -29,7 +22,7 @@ format:
     theme:
       - cosmo
       - brand
-    css: [css/styles.css, css/lec.scss]
+    css: [css/styles.css, css/slide.scss]
     toc: true
 
 

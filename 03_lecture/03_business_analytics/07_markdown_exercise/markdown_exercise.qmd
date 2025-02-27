@@ -1,0 +1,104 @@
+---
+title: "マークダウン記法 演習"
+subtitle: "Topic 07"
+author: "Hisashi Takeda, Ph.D."
+institute: "Tokyo International University"
+format:
+  revealjs:
+    toc: true
+    slide-number: true
+    number-sections: true
+    chalkboard: true
+    incremental: false
+    lightbox: false
+    code-line-numbers: true
+    code-fold: true
+    code-copy: true
+    smaller: false 
+    scrollable: true
+    lang: "ja"
+    footer: "htakeda@tiu.ac.jp"
+    theme: [default, ../../css/slide.scss]
+    logo: ../../css/tiu.png
+    embed-resources: false 
+---
+
+# タイプ練習環境構築
+
+## Online Markdown Editor -- Dillinger
+
+<https://dillinger.io>
+
+
+## オプション設定画面
+
+「Scroll Sync」をONにすると編集画面と表示画面が同期[^1]する。
+
+![オプション設定画面](./fig/dillinger_options.png)
+
+[^1]: 同時にスクロール
+
+# マークダウン記法
+
+## 改行
+
+- 改行は行末に２つの半角スペースを入れる。
+- バックスラッシュ「/」を入れる。
+
+## 見出し
+
+![](./fig/markdown_title_bar.png)
+
+## 箇条書き
+
+![](./fig/markdown_list.png){width=80%}
+
+---
+
+改行し半角4つの後に「*」，「-」，「+」
+の記号で入れ子リストを作成できる。
+
+![](./fig/markdown_sublist.png){width=200%}
+
+## 修飾
+
+![](./fig/markdown_decoration.png){width=100%}
+
+## 引用
+
+![](./fig/markdown_quote.png){width=50%}
+
+## ハイパーリンク
+
+![](./fig/markdown_hyperlink.png)
+
+## 数式
+
+数式をインライン（行内；文字の高さで）表示させるには，
+数式をLaTeX\fn{「ラテフ」と読む}方式で表記したものを\$マークで括る。
+![](./fig/markdown_math_misc.png)
+
+センタリング（中央寄せ）し正しい大きさで数式表示する場合，
+\$\$マークで\ruby{括}{くく}る。
+
+![](./fig/markdown_math_sigma.png)
+![](./fig/markdown_math_integral.png)
+
+$x$と$dx$の間の半角スペースは，「～」を使う。
+
+## 表
+
+![](./fig/markdown_table1.png)
+![](./fig/markdown_table2.png)
+
+## 図
+
+単発的な図を掲載する記法
+
+![](./fig/markdown_mark_command.png)
+
+図を掲載する場所が複数あるときに便利な記法
+
+![](./fig/markdown_mark_command2.png)
+
+---
