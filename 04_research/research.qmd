@@ -1,0 +1,20 @@
+---
+title: "研究分野"
+---
+
+- データサイエンス教育方法論
+- 電力需要/市場取引価格予測
+- 再生可能エネルギー予測
+- ソフトウェア開発（[GitHub](https://github.com/tkdhss111?tab=repositories)）
+
+---
+
+電力需要，再生可能エネルギー，市場価格などの時系列データを用いた予測技術について研究開発，国家プロジェクトに参画
+
+- [電力需要分析（状態空間モデル）](thesis_htakeda.pdf)
+
+![](fig/demand_analysis.png){width=100%}
+
+- [でんき予報（東京電力ＰＧ）](https://www.tepco.co.jp/forecast) 
+
+![](fig/denkiyoho.png){width=100%}

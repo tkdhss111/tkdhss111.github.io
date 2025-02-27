@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "ホームページ",
     "section": "",
-    "text": "東京国際大学 データサイエンス教育研究所\n教授　竹田 恒（略歴）\n修士（工学），統計学修士，博士（統計科学）\nE-mail: htakeda at tiu.ac.jp\nHisashi Takeda, Ph.D.\nProfessor of Data Science\nInstitute for Data Science Education\nTokyo International University"
+    "text": "教員\n\n\n授業\n\n\n研究"
   },
   {
     "objectID": "index.html#教員",
     "href": "index.html#教員",
     "title": "ホームページ",
     "section": "",
-    "text": "東京国際大学 データサイエンス教育研究所\n教授　竹田 恒（略歴）\n修士（工学），統計学修士，博士（統計科学）\nE-mail: htakeda at tiu.ac.jp\nHisashi Takeda, Ph.D.\nProfessor of Data Science\nInstitute for Data Science Education\nTokyo International University"
+    "text": "東京国際大学 データサイエンス教育研究所\n教授　竹田 恒\n修士（工学），統計学修士，博士（統計科学）\nE-mail: htakeda at tiu.ac.jp\nHisashi Takeda, Ph.D.\nProfessor of Data Science\nInstitute for Data Science Education\nTokyo International University"
   },
   {
     "objectID": "index.html#担当授業",
@@ -39,7 +39,7 @@
     "href": "02_resume/resume.html",
     "title": "竹田研究室（Takeda Lab.）",
     "section": "",
-    "text": "English"
+    "text": "東京国際大学 データサイエンス教育研究所\n教授　竹田 恒\n修士（工学），統計学修士，博士（統計科学）\nE-mail: htakeda at tiu.ac.jp\nHisashi Takeda, Ph.D.\nProfessor of Data Science\nInstitute for Data Science Education\nTokyo International University\nEnglish"
   },
   {
     "objectID": "02_resume/resume.html#学歴",
@@ -61,5 +61,40 @@
     "title": "竹田研究室（Takeda Lab.）",
     "section": "研究",
     "text": "研究\n電力需要，再生可能エネルギー，市場価格などの時系列データを用いた予測技術について研究開発，国家プロジェクトに参画\n\n電力需要分析（状態空間モデル）\n\n\n\nでんき予報（東京電力ＰＧ）"
+  },
+  {
+    "objectID": "index.html#授業",
+    "href": "index.html#授業",
+    "title": "ホームページ",
+    "section": "授業",
+    "text": "授業"
+  },
+  {
+    "objectID": "index.html#分野",
+    "href": "index.html#分野",
+    "title": "ホームページ",
+    "section": "分野",
+    "text": "分野\n\nデータサイエンス教育方法論\n電力需要/市場取引価格予測\n再生可能エネルギー予測\nソフトウェア開発（GitHub）"
+  },
+  {
+    "objectID": "index.html#研究",
+    "href": "index.html#研究",
+    "title": "ホームページ",
+    "section": "研究",
+    "text": "研究"
+  },
+  {
+    "objectID": "04_research/research.html",
+    "href": "04_research/research.html",
+    "title": "研究分野",
+    "section": "",
+    "text": "データサイエンス教育方法論\n電力需要/市場取引価格予測\n再生可能エネルギー予測\nソフトウェア開発（GitHub）\n\n\n電力需要，再生可能エネルギー，市場価格などの時系列データを用いた予測技術について研究開発，国家プロジェクトに参画\n\n電力需要分析（状態空間モデル）\n\n\n\nでんき予報（東京電力ＰＧ）"
+  },
+  {
+    "objectID": "03_lecture/lecture.html",
+    "href": "03_lecture/lecture.html",
+    "title": "担当授業",
+    "section": "",
+    "text": "オープンキャンパス\n初年次演習（1年春学期）\n初年次演習（1年秋学期）\n基礎数学（1年春学期）\n確率・統計（1年秋学期）\nビジネス アナリティクス（2年春学期）\n機械学習（2年秋学期）\nRプログラミング（3年春学期）\n専門演習（3年春学期）\n専門演習（3年秋学期）\n専門演習（4年春学期）\n専門演習（4年秋学期）"
   }
 ]

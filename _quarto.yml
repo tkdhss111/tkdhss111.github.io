@@ -5,6 +5,8 @@ project:
     - index.qmd
     - 01_about/about.qmd
     - 02_resume/resume.qmd
+    - 03_lecture/lecture.qmd
+    - 04_research/research.qmd
     - topic*.qmd
 
 website:
@@ -16,7 +18,11 @@ website:
       - href: 01_about/about.qmd
         text: 所在地
       - href: 02_resume/resume.qmd
-        text: 略歴
+        text: 教員
+      - href: 03_lecture/lecture.qmd
+        text: 授業
+      - href: 04_research/research.qmd
+        text: 研究
 
 format:
   html:

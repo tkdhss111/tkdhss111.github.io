@@ -1,8 +1,24 @@
 ---
 title: ""
 ---
+:::: {.columns}
+::: {.column width="70%"}
+東京国際大学 データサイエンス教育研究所  
+教授　竹田 恒  
+修士（工学），統計学修士，博士（統計科学）
 
-![](fig/self.png){width=20%}
+E-mail: htakeda at tiu.ac.jp
+
+Hisashi Takeda, Ph.D.  
+Professor of Data Science  
+Institute for Data Science Education  
+Tokyo International University  
+:::
+
+::: {.column width="30%"}
+![](fig/self.png){width=100%}
+:::
+::::
 
 [English](Hisashi-Takeda_Profile.pdf)
 
@@ -17,15 +33,3 @@ title: ""
 
 - 東京電力ＨＤ 経営戦略調査室 スペシャリスト（応用統計技術）
 - 2021年10月より，東京国際大学 データサイエンス教育研究所 教授
-
-## 研究
-
-電力需要，再生可能エネルギー，市場価格などの時系列データを用いた予測技術について研究開発，国家プロジェクトに参画
-
-- [電力需要分析（状態空間モデル）](thesis_htakeda.pdf)
-
-![](fig/demand_analysis.png){width=100%}
-
-- [でんき予報（東京電力ＰＧ）](https://www.tepco.co.jp/forecast) 
-
-![](fig/denkiyoho.png){width=100%}
