@@ -1,0 +1,2 @@
+{{< include ../../../fmt/fmt_html.qmd >}}
+{{< include content.qmd >}}

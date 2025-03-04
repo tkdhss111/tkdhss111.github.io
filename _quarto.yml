@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
 
 website:
   title: "竹田研究室（Takeda Lab.）"
@@ -8,13 +10,13 @@ website:
     left:
       - href: index.qmd
         text: ホームページ
-      - href: 01_about/about.qmd
+      - href: 01_about/index.qmd
         text: 所在地
-      - href: 02_resume/resume.qmd
+      - href: 02_resume/index.qmd
         text: 教員
-      - href: 03_lecture/lecture.qmd
+      - href: 03_lecture/index.qmd
         text: 授業
-      - href: 04_research/research.qmd
+      - href: 04_research/index.qmd
         text: 研究
 
 format:

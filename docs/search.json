@@ -1,100 +1,240 @@
 [
   {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#変数選択",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#変数選択",
+    "title": "変数選択法",
+    "section": "1.1 変数選択",
+    "text": "1.1 変数選択\n本来不要な説明変数が多いと，それぞれの説明変数の影響が重なり合い思わぬ結果がでしまうことがある。\n不要な説明変数はできるだけ除くことが望ましい。 変数選択（特徴量選択）には主に次の３つの方法がある。\n\n変数指定法\n\nドメイン知識により必要な説明変数を指定する方法 （最も分かりやすい）\n\n総当り法\n\n全ての説明変数の組み合わせを網羅し 最も良い説明変数を選択する方法。 （計算コストが高い）\n\n逐次選択法\n\n一定の規則に従って説明変数を逐次選択する方法。\n（計算コストを抑えつつ自動で選択する）"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#フォワード法",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#フォワード法",
+    "title": "変数選択法",
+    "section": "2.1 フォワード法",
+    "text": "2.1 フォワード法\n1\n統計学がわかった！"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#バックワード法",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#バックワード法",
+    "title": "変数選択法",
+    "section": "2.2 バックワード法",
+    "text": "2.2 バックワード法\n1\n統計学がわかった！"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#ステップワイズ法",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#ステップワイズ法",
+    "title": "変数選択法",
+    "section": "2.3 ステップワイズ法",
+    "text": "2.3 ステップワイズ法\n1\n統計学がわかった！"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#変数選択法利用時の注意点",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#変数選択法利用時の注意点",
+    "title": "変数選択法",
+    "section": "2.4 変数選択法利用時の注意点",
+    "text": "2.4 変数選択法利用時の注意点\n変数選択法は，全く本来因果関係のない変数が選択される場合があり 合理的な解釈に苦しむことがある。\n理想的には，ドメイン知識（専門知識）をもとに回帰分析前に 必要となる説明変数を決める方が良い。\nしかし，総当り法や逐次選択法では分析者が今まで気づかなかった有効な変数や特徴量を発見することもある。\n変数選択が不必要／必要な場合\n1\n総務省統計局 第２講"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#汎化性能",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#汎化性能",
+    "title": "変数選択法",
+    "section": "2.5 汎化性能",
+    "text": "2.5 汎化性能\n未知のデータに対する予測能力のことを汎化性能1という。\n過学習モデルは，この性能が低い。\nいかに訓練データに過学習することなく汎化性能を高めるかが 良い予測モデル作成のためにとても重要である。\nデータサイエンティストの腕の見せ所でもある。\nはんかせいのう"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#スパース線形回帰",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#スパース線形回帰",
+    "title": "変数選択法",
+    "section": "3.1 スパース線形回帰",
+    "text": "3.1 スパース線形回帰\n回帰係数の推定と変数選択を同時に行う効率的な手法\nLASSO1回帰が有名。\nLASSO回帰では予測に寄与しない説明変数の回帰係数がゼロになる（スパース性） ことで変数選択を自動で行う。\nラッソ"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#ランダムフォレスト",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#ランダムフォレスト",
+    "title": "変数選択法",
+    "section": "3.2 ランダムフォレスト",
+    "text": "3.2 ランダムフォレスト\n\n\nランダムフォレスト1とは，ランダムサンプリングされた訓練データから作られた複数の決定木で説明変数をランダムに選択したものを弱学習器とするアンサンブル学習アルゴリズム。\n\n2\n\nrandom forest【Wikipedia】ランダムフォレスト"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#データ",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#データ",
+    "title": "変数選択法",
+    "section": "4.1 データ",
+    "text": "4.1 データ\n単位はオリジナル（出典参照）から馴染みのあるものに変換した。\n\n【UCI Machine Learning Repository】Auto MPG Data Set\n\n\n説明変数\n内容（単位）\n\n\n\n\n燃費\n燃費（km/L）\n\n\n気筒数\n気筒数（本）\n\n\n排気量\n排気量（cc）\n\n\n馬力\n馬力（hp）\n\n\n車体重量\n車体重量（kg）\n\n\n加速性能\n加速性能：時速97km（60mile）に到達する時間（秒）\n\n\n製造年\n製造年（年）\n\n\n分類\nアメ車，日本車，欧州車の3区分\n\n\n車名\n車名（英語）"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#フィッティング",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#フィッティング",
+    "title": "変数選択法",
+    "section": "4.2 フィッティング",
+    "text": "4.2 フィッティング\n\n車名を除くすべての説明変数を使って回帰分析する。\n車名を入れると変数の数がデータサイズに近づき過学習するので注意\n\n\n\n\n\n\n \n燃費\n\n\nPredictors\nEstimates\nCI\nStatistic\np\n\n\n(Intercept)\n-635.52\n-721.28 – -549.77\n-14.57\n&lt;0.001\n\n\n気筒数\n-0.21\n-0.48 – 0.06\n-1.52\n0.128\n\n\n排気量\n0.00\n0.00 – 0.00\n3.14\n0.002\n\n\n馬力\n-0.01\n-0.02 – 0.00\n-1.33\n0.185\n\n\n車体重量\n-0.01\n-0.01 – -0.01\n-10.24\n&lt;0.001\n\n\n加速性能\n0.03\n-0.05 – 0.12\n0.81\n0.421\n\n\n製造年\n0.33\n0.29 – 0.37\n15.01\n&lt;0.001\n\n\n分類 [日本車]\n1.21\n0.75 – 1.67\n5.16\n&lt;0.001\n\n\n分類 [欧州車]\n1.12\n0.64 – 1.59\n4.64\n&lt;0.001\n\n\nObservations\n392\n\n\nR2 / R2 adjusted\n0.824 / 0.821\n\n\nAIC\n1390.309"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#変数を手動選択",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#変数を手動選択",
+    "title": "変数選択法",
+    "section": "4.3 変数を手動選択",
+    "text": "4.3 変数を手動選択\n有意でない偏回帰係数を持つ説明変数を除外\n\n\n\n\n\n \n燃費\n\n\nPredictors\nEstimates\nCI\nStatistic\np\n\n\n(Intercept)\n-653.14\n-737.14 – -569.15\n-15.29\n&lt;0.001\n\n\n排気量\n0.00\n-0.00 – 0.00\n1.87\n0.063\n\n\n車体重量\n-0.01\n-0.01 – -0.01\n-12.10\n&lt;0.001\n\n\n製造年\n0.34\n0.30 – 0.38\n15.71\n&lt;0.001\n\n\n分類 [日本車]\n1.04\n0.59 – 1.48\n4.59\n&lt;0.001\n\n\n分類 [欧州車]\n1.01\n0.54 – 1.48\n4.25\n&lt;0.001\n\n\nObservations\n392\n\n\nR2 / R2 adjusted\n0.821 / 0.818\n\n\nAIC\n1392.150"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#ステップワイズ変数選択",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#ステップワイズ変数選択",
+    "title": "変数選択法",
+    "section": "4.4 ステップワイズ変数選択",
+    "text": "4.4 ステップワイズ変数選択\n変数間の相乗効果を表す交互作用項を追加（モデル式を2乗）する。 交互変数を追加すると組み合わせ数が多くなり，手動では変数選択が難しいため， ステップワイズ変数選択法を使用する。\n\n\n\n\n\n \n燃費\n\n\nPredictors\nEstimates\nCI\nStatistic\np\n\n\n(Intercept)\n-24.78\n-777.54 – 727.99\n-0.06\n0.948\n\n\n気筒数\n-1.02\n-1.77 – -0.26\n-2.65\n0.008\n\n\n排気量\n-0.09\n-0.20 – 0.02\n-1.59\n0.113\n\n\n馬力\n5.75\n1.12 – 10.38\n2.44\n0.015\n\n\n車体重量\n-0.01\n-0.01 – -0.01\n-8.58\n&lt;0.001\n\n\n加速性能\n-51.71\n-84.66 – -18.77\n-3.09\n0.002\n\n\n製造年\n0.03\n-0.35 – 0.41\n0.15\n0.881\n\n\n分類 [日本車]\n-214.70\n-421.34 – -8.06\n-2.04\n0.042\n\n\n分類 [欧州車]\n-232.77\n-448.44 – -17.09\n-2.12\n0.034\n\n\n気筒数 × 加速性能\n0.07\n0.02 – 0.11\n2.89\n0.004\n\n\n排気量 × 車体重量\n0.00\n0.00 – 0.00\n7.35\n&lt;0.001\n\n\n排気量 × 製造年\n0.00\n-0.00 – 0.00\n1.55\n0.122\n\n\n排気量 × 分類 [日本車]\n0.00\n0.00 – 0.00\n3.78\n&lt;0.001\n\n\n排気量 × 分類 [欧州車]\n-0.00\n-0.00 – 0.00\n-0.90\n0.369\n\n\n馬力 × 製造年\n-0.00\n-0.01 – -0.00\n-2.45\n0.015\n\n\n車体重量 × 分類 [日本車]\n-0.00\n-0.01 – -0.00\n-2.46\n0.014\n\n\n車体重量 × 分類 [欧州車]\n0.00\n-0.00 – 0.00\n0.48\n0.634\n\n\n加速性能 × 製造年\n0.03\n0.01 – 0.04\n3.06\n0.002\n\n\n加速性能 × 分類 [日本車]\n0.34\n0.15 – 0.54\n3.45\n0.001\n\n\n加速性能 × 分類 [欧州車]\n0.44\n0.29 – 0.59\n5.87\n&lt;0.001\n\n\n製造年 × 分類 [日本車]\n0.11\n0.00 – 0.21\n2.00\n0.046\n\n\n製造年 × 分類 [欧州車]\n0.11\n0.01 – 0.22\n2.06\n0.040\n\n\nObservations\n392\n\n\nR2 / R2 adjusted\n0.894 / 0.888\n\n\nAIC\n1217.342"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#モデル比較",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#モデル比較",
+    "title": "変数選択法",
+    "section": "4.5 モデル比較",
+    "text": "4.5 モデル比較\n\n\n\n\n\n \n車名除きフルモデル\n手動選択モデル\nステップワイズ変数選択モデル\n\n\nPredictors\nEstimates\nCI\nStatistic\np\nEstimates\nCI\nStatistic\np\nEstimates\nCI\nStatistic\np\n\n\n(Intercept)\n-635.52\n-721.28 – -549.77\n-14.57\n&lt;0.001\n-653.14\n-737.14 – -569.15\n-15.29\n&lt;0.001\n-24.78\n-777.54 – 727.99\n-0.06\n0.948\n\n\n気筒数\n-0.21\n-0.48 – 0.06\n-1.52\n0.128\n\n\n\n\n-1.02\n-1.77 – -0.26\n-2.65\n0.008\n\n\n排気量\n0.00\n0.00 – 0.00\n3.14\n0.002\n0.00\n-0.00 – 0.00\n1.87\n0.063\n-0.09\n-0.20 – 0.02\n-1.59\n0.113\n\n\n馬力\n-0.01\n-0.02 – 0.00\n-1.33\n0.185\n\n\n\n\n5.75\n1.12 – 10.38\n2.44\n0.015\n\n\n車体重量\n-0.01\n-0.01 – -0.01\n-10.24\n&lt;0.001\n-0.01\n-0.01 – -0.01\n-12.10\n&lt;0.001\n-0.01\n-0.01 – -0.01\n-8.58\n&lt;0.001\n\n\n加速性能\n0.03\n-0.05 – 0.12\n0.81\n0.421\n\n\n\n\n-51.71\n-84.66 – -18.77\n-3.09\n0.002\n\n\n製造年\n0.33\n0.29 – 0.37\n15.01\n&lt;0.001\n0.34\n0.30 – 0.38\n15.71\n&lt;0.001\n0.03\n-0.35 – 0.41\n0.15\n0.881\n\n\n分類 [日本車]\n1.21\n0.75 – 1.67\n5.16\n&lt;0.001\n1.04\n0.59 – 1.48\n4.59\n&lt;0.001\n-214.70\n-421.34 – -8.06\n-2.04\n0.042\n\n\n分類 [欧州車]\n1.12\n0.64 – 1.59\n4.64\n&lt;0.001\n1.01\n0.54 – 1.48\n4.25\n&lt;0.001\n-232.77\n-448.44 – -17.09\n-2.12\n0.034\n\n\n気筒数 × 加速性能\n\n\n\n\n\n\n\n\n0.07\n0.02 – 0.11\n2.89\n0.004\n\n\n排気量 × 車体重量\n\n\n\n\n\n\n\n\n0.00\n0.00 – 0.00\n7.35\n&lt;0.001\n\n\n排気量 × 製造年\n\n\n\n\n\n\n\n\n0.00\n-0.00 – 0.00\n1.55\n0.122\n\n\n排気量 × 分類 [日本車]\n\n\n\n\n\n\n\n\n0.00\n0.00 – 0.00\n3.78\n&lt;0.001\n\n\n排気量 × 分類 [欧州車]\n\n\n\n\n\n\n\n\n-0.00\n-0.00 – 0.00\n-0.90\n0.369\n\n\n馬力 × 製造年\n\n\n\n\n\n\n\n\n-0.00\n-0.01 – -0.00\n-2.45\n0.015\n\n\n車体重量 × 分類 [日本車]\n\n\n\n\n\n\n\n\n-0.00\n-0.01 – -0.00\n-2.46\n0.014\n\n\n車体重量 × 分類 [欧州車]\n\n\n\n\n\n\n\n\n0.00\n-0.00 – 0.00\n0.48\n0.634\n\n\n加速性能 × 製造年\n\n\n\n\n\n\n\n\n0.03\n0.01 – 0.04\n3.06\n0.002\n\n\n加速性能 × 分類 [日本車]\n\n\n\n\n\n\n\n\n0.34\n0.15 – 0.54\n3.45\n0.001\n\n\n加速性能 × 分類 [欧州車]\n\n\n\n\n\n\n\n\n0.44\n0.29 – 0.59\n5.87\n&lt;0.001\n\n\n製造年 × 分類 [日本車]\n\n\n\n\n\n\n\n\n0.11\n0.00 – 0.21\n2.00\n0.046\n\n\n製造年 × 分類 [欧州車]\n\n\n\n\n\n\n\n\n0.11\n0.01 – 0.22\n2.06\n0.040\n\n\nObservations\n392\n392\n392\n\n\nR2 / R2 adjusted\n0.824 / 0.821\n0.821 / 0.818\n0.894 / 0.888\n\n\nAIC\n1390.309\n1392.150\n1217.342\n\n\n\n\n\n\n\n\n自由度調整済み決定係数（\\(R^2\\) adjusted）やAICを比べると， はステップワイズ変数選択モデル，次いで車名除きフルモデル， 最後に手動選択モデルの順に良いモデルとなった。"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#演習課題",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#演習課題",
+    "title": "変数選択法",
+    "section": "4.6 演習課題",
+    "text": "4.6 演習課題\n\n赤ワインの品質（quality）を予測する重回帰モデルとして， フルモデル，手動選択モデル，ステップワイズ変数選択モデルを作成し性能を評価せよ。\nステップワイズ変数選択で， 化学物質の組み合わせの妙を表現するための交互作用項を導入せよ。\n\nデータの内容は 赤ワインデータの解析 を参照のこと。"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ホームページ",
     "section": "",
-    "text": "教員\n\n\n授業\n\n\n研究"
+    "text": "教員\n\n\n授業\n\n\n研究\n\n\n顧問"
   },
   {
-    "objectID": "03_lecture/lecture.html",
-    "href": "03_lecture/lecture.html",
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html",
+    "title": "変数選択法",
+    "section": "",
+    "text": "本来不要な説明変数が多いと，それぞれの説明変数の影響が重なり合い思わぬ結果がでしまうことがある。\n不要な説明変数はできるだけ除くことが望ましい。 変数選択（特徴量選択）には主に次の３つの方法がある。\n\n変数指定法\n\nドメイン知識により必要な説明変数を指定する方法 （最も分かりやすい）\n\n総当り法\n\n全ての説明変数の組み合わせを網羅し 最も良い説明変数を選択する方法。 （計算コストが高い）\n\n逐次選択法\n\n一定の規則に従って説明変数を逐次選択する方法。\n（計算コストを抑えつつ自動で選択する）"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#変数選択",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#変数選択",
+    "title": "変数選択法",
+    "section": "",
+    "text": "本来不要な説明変数が多いと，それぞれの説明変数の影響が重なり合い思わぬ結果がでしまうことがある。\n不要な説明変数はできるだけ除くことが望ましい。 変数選択（特徴量選択）には主に次の３つの方法がある。\n\n変数指定法\n\nドメイン知識により必要な説明変数を指定する方法 （最も分かりやすい）\n\n総当り法\n\n全ての説明変数の組み合わせを網羅し 最も良い説明変数を選択する方法。 （計算コストが高い）\n\n逐次選択法\n\n一定の規則に従って説明変数を逐次選択する方法。\n（計算コストを抑えつつ自動で選択する）"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#フォワード法",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#フォワード法",
+    "title": "変数選択法",
+    "section": "フォワード法",
+    "text": "フォワード法\n1"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#バックワード法",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#バックワード法",
+    "title": "変数選択法",
+    "section": "バックワード法",
+    "text": "バックワード法\n2"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#ステップワイズ法",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#ステップワイズ法",
+    "title": "変数選択法",
+    "section": "ステップワイズ法",
+    "text": "ステップワイズ法\n3"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#変数選択法利用時の注意点",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#変数選択法利用時の注意点",
+    "title": "変数選択法",
+    "section": "変数選択法利用時の注意点",
+    "text": "変数選択法利用時の注意点\n変数選択法は，全く本来因果関係のない変数が選択される場合があり 合理的な解釈に苦しむことがある。\n理想的には，ドメイン知識（専門知識）をもとに回帰分析前に 必要となる説明変数を決める方が良い。\nしかし，総当り法や逐次選択法では分析者が今まで気づかなかった有効な変数や特徴量を発見することもある。\n変数選択が不必要／必要な場合\n4"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#汎化性能",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#汎化性能",
+    "title": "変数選択法",
+    "section": "汎化性能",
+    "text": "汎化性能\n未知のデータに対する予測能力のことを汎化性能5という。\n過学習モデルは，この性能が低い。\nいかに訓練データに過学習することなく汎化性能を高めるかが 良い予測モデル作成のためにとても重要である。\nデータサイエンティストの腕の見せ所でもある。"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#スパース線形回帰",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#スパース線形回帰",
+    "title": "変数選択法",
+    "section": "スパース線形回帰",
+    "text": "スパース線形回帰\n回帰係数の推定と変数選択を同時に行う効率的な手法\nLASSO6回帰が有名。\nLASSO回帰では予測に寄与しない説明変数の回帰係数がゼロになる（スパース性） ことで変数選択を自動で行う。"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#ランダムフォレスト",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#ランダムフォレスト",
+    "title": "変数選択法",
+    "section": "ランダムフォレスト",
+    "text": "ランダムフォレスト\n\n\nランダムフォレスト7とは，ランダムサンプリングされた訓練データから作られた複数の決定木で説明変数をランダムに選択したものを弱学習器とするアンサンブル学習アルゴリズム。\n\n8"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#データ",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#データ",
+    "title": "変数選択法",
+    "section": "データ",
+    "text": "データ\n単位はオリジナル（出典参照）から馴染みのあるものに変換した。\n\n【UCI Machine Learning Repository】Auto MPG Data Set\n\n\n説明変数\n内容（単位）\n\n\n\n\n燃費\n燃費（km/L）\n\n\n気筒数\n気筒数（本）\n\n\n排気量\n排気量（cc）\n\n\n馬力\n馬力（hp）\n\n\n車体重量\n車体重量（kg）\n\n\n加速性能\n加速性能：時速97km（60mile）に到達する時間（秒）\n\n\n製造年\n製造年（年）\n\n\n分類\nアメ車，日本車，欧州車の3区分\n\n\n車名\n車名（英語）\n\n\n\n\nd &lt;- read.csv('https://stats.dip.jp/01_ds/data/car_mileage.csv')\nrownames(d) &lt;- paste0('No.', 1:nrow(d))\n\nlibrary(DT)\ndatatable(d)"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#フィッティング",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#フィッティング",
+    "title": "変数選択法",
+    "section": "フィッティング",
+    "text": "フィッティング\n\n車名を除くすべての説明変数を使って回帰分析する。\n車名を入れると変数の数がデータサイズに近づき過学習するので注意\n\n\nfit.full &lt;- lm(燃費 ~ 気筒数 + 排気量 + 馬力 + 車体重量 + 加速性能 + 製造年 + 分類, data = d)\n#summary(fit.full)\nlibrary(sjPlot)\ntab_model(fit.full, show.stat = T, show.aic = T)\n\n\n\n\n \n燃費\n\n\nPredictors\nEstimates\nCI\nStatistic\np\n\n\n(Intercept)\n-635.52\n-721.28 – -549.77\n-14.57\n&lt;0.001\n\n\n気筒数\n-0.21\n-0.48 – 0.06\n-1.52\n0.128\n\n\n排気量\n0.00\n0.00 – 0.00\n3.14\n0.002\n\n\n馬力\n-0.01\n-0.02 – 0.00\n-1.33\n0.185\n\n\n車体重量\n-0.01\n-0.01 – -0.01\n-10.24\n&lt;0.001\n\n\n加速性能\n0.03\n-0.05 – 0.12\n0.81\n0.421\n\n\n製造年\n0.33\n0.29 – 0.37\n15.01\n&lt;0.001\n\n\n分類 [日本車]\n1.21\n0.75 – 1.67\n5.16\n&lt;0.001\n\n\n分類 [欧州車]\n1.12\n0.64 – 1.59\n4.64\n&lt;0.001\n\n\nObservations\n392\n\n\nR2 / R2 adjusted\n0.824 / 0.821\n\n\nAIC\n1390.309"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#変数を手動選択",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#変数を手動選択",
+    "title": "変数選択法",
+    "section": "変数を手動選択",
+    "text": "変数を手動選択\n有意でない偏回帰係数を持つ説明変数を除外\n\nfit.manual &lt;- lm(燃費 ~ 排気量 + 車体重量 + 製造年 + 分類, data = d)\n#summary(fit.manual)\ntab_model(fit.manual, show.stat = T, show.aic = T)\n\n\n\n\n \n燃費\n\n\nPredictors\nEstimates\nCI\nStatistic\np\n\n\n(Intercept)\n-653.14\n-737.14 – -569.15\n-15.29\n&lt;0.001\n\n\n排気量\n0.00\n-0.00 – 0.00\n1.87\n0.063\n\n\n車体重量\n-0.01\n-0.01 – -0.01\n-12.10\n&lt;0.001\n\n\n製造年\n0.34\n0.30 – 0.38\n15.71\n&lt;0.001\n\n\n分類 [日本車]\n1.04\n0.59 – 1.48\n4.59\n&lt;0.001\n\n\n分類 [欧州車]\n1.01\n0.54 – 1.48\n4.25\n&lt;0.001\n\n\nObservations\n392\n\n\nR2 / R2 adjusted\n0.821 / 0.818\n\n\nAIC\n1392.150"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#ステップワイズ変数選択",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#ステップワイズ変数選択",
+    "title": "変数選択法",
+    "section": "ステップワイズ変数選択",
+    "text": "ステップワイズ変数選択\n変数間の相乗効果を表す交互作用項を追加（モデル式を2乗）する。 交互変数を追加すると組み合わせ数が多くなり，手動では変数選択が難しいため， ステップワイズ変数選択法を使用する。\n\nlibrary(MASS)\nfit.aic &lt;- stepAIC(lm(燃費 ~ (気筒数 + 排気量 + 馬力 + 車体重量 + 加速性能 + 製造年 + 分類)^2, data = d), trace = 0)\n#summary(fit.aic)\ntab_model(fit.aic, show.stat = T, show.aic = T)\n\n\n\n\n \n燃費\n\n\nPredictors\nEstimates\nCI\nStatistic\np\n\n\n(Intercept)\n-24.78\n-777.54 – 727.99\n-0.06\n0.948\n\n\n気筒数\n-1.02\n-1.77 – -0.26\n-2.65\n0.008\n\n\n排気量\n-0.09\n-0.20 – 0.02\n-1.59\n0.113\n\n\n馬力\n5.75\n1.12 – 10.38\n2.44\n0.015\n\n\n車体重量\n-0.01\n-0.01 – -0.01\n-8.58\n&lt;0.001\n\n\n加速性能\n-51.71\n-84.66 – -18.77\n-3.09\n0.002\n\n\n製造年\n0.03\n-0.35 – 0.41\n0.15\n0.881\n\n\n分類 [日本車]\n-214.70\n-421.34 – -8.06\n-2.04\n0.042\n\n\n分類 [欧州車]\n-232.77\n-448.44 – -17.09\n-2.12\n0.034\n\n\n気筒数 × 加速性能\n0.07\n0.02 – 0.11\n2.89\n0.004\n\n\n排気量 × 車体重量\n0.00\n0.00 – 0.00\n7.35\n&lt;0.001\n\n\n排気量 × 製造年\n0.00\n-0.00 – 0.00\n1.55\n0.122\n\n\n排気量 × 分類 [日本車]\n0.00\n0.00 – 0.00\n3.78\n&lt;0.001\n\n\n排気量 × 分類 [欧州車]\n-0.00\n-0.00 – 0.00\n-0.90\n0.369\n\n\n馬力 × 製造年\n-0.00\n-0.01 – -0.00\n-2.45\n0.015\n\n\n車体重量 × 分類 [日本車]\n-0.00\n-0.01 – -0.00\n-2.46\n0.014\n\n\n車体重量 × 分類 [欧州車]\n0.00\n-0.00 – 0.00\n0.48\n0.634\n\n\n加速性能 × 製造年\n0.03\n0.01 – 0.04\n3.06\n0.002\n\n\n加速性能 × 分類 [日本車]\n0.34\n0.15 – 0.54\n3.45\n0.001\n\n\n加速性能 × 分類 [欧州車]\n0.44\n0.29 – 0.59\n5.87\n&lt;0.001\n\n\n製造年 × 分類 [日本車]\n0.11\n0.00 – 0.21\n2.00\n0.046\n\n\n製造年 × 分類 [欧州車]\n0.11\n0.01 – 0.22\n2.06\n0.040\n\n\nObservations\n392\n\n\nR2 / R2 adjusted\n0.894 / 0.888\n\n\nAIC\n1217.342\n\n\n\n\n\n\n\n\n\n注意点\nステップワイズ変数選択では有意でない偏回帰係数も選択される。 これはモデル選択の基準となるAICが予測誤差最小を評価する指標であり， 偏回帰係数の有意性の有無は考慮していないためである。"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#モデル比較",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#モデル比較",
+    "title": "変数選択法",
+    "section": "モデル比較",
+    "text": "モデル比較\n\ntab_model(fit.full, fit.manual, fit.aic, \n          show.stat = T, show.aic = T,\n          dv.labels = c('車名除きフルモデル',\n                        '手動選択モデル', \n                        'ステップワイズ変数選択モデル'))\n\n\n\n\n \n車名除きフルモデル\n手動選択モデル\nステップワイズ変数選択モデル\n\n\nPredictors\nEstimates\nCI\nStatistic\np\nEstimates\nCI\nStatistic\np\nEstimates\nCI\nStatistic\np\n\n\n(Intercept)\n-635.52\n-721.28 – -549.77\n-14.57\n&lt;0.001\n-653.14\n-737.14 – -569.15\n-15.29\n&lt;0.001\n-24.78\n-777.54 – 727.99\n-0.06\n0.948\n\n\n気筒数\n-0.21\n-0.48 – 0.06\n-1.52\n0.128\n\n\n\n\n-1.02\n-1.77 – -0.26\n-2.65\n0.008\n\n\n排気量\n0.00\n0.00 – 0.00\n3.14\n0.002\n0.00\n-0.00 – 0.00\n1.87\n0.063\n-0.09\n-0.20 – 0.02\n-1.59\n0.113\n\n\n馬力\n-0.01\n-0.02 – 0.00\n-1.33\n0.185\n\n\n\n\n5.75\n1.12 – 10.38\n2.44\n0.015\n\n\n車体重量\n-0.01\n-0.01 – -0.01\n-10.24\n&lt;0.001\n-0.01\n-0.01 – -0.01\n-12.10\n&lt;0.001\n-0.01\n-0.01 – -0.01\n-8.58\n&lt;0.001\n\n\n加速性能\n0.03\n-0.05 – 0.12\n0.81\n0.421\n\n\n\n\n-51.71\n-84.66 – -18.77\n-3.09\n0.002\n\n\n製造年\n0.33\n0.29 – 0.37\n15.01\n&lt;0.001\n0.34\n0.30 – 0.38\n15.71\n&lt;0.001\n0.03\n-0.35 – 0.41\n0.15\n0.881\n\n\n分類 [日本車]\n1.21\n0.75 – 1.67\n5.16\n&lt;0.001\n1.04\n0.59 – 1.48\n4.59\n&lt;0.001\n-214.70\n-421.34 – -8.06\n-2.04\n0.042\n\n\n分類 [欧州車]\n1.12\n0.64 – 1.59\n4.64\n&lt;0.001\n1.01\n0.54 – 1.48\n4.25\n&lt;0.001\n-232.77\n-448.44 – -17.09\n-2.12\n0.034\n\n\n気筒数 × 加速性能\n\n\n\n\n\n\n\n\n0.07\n0.02 – 0.11\n2.89\n0.004\n\n\n排気量 × 車体重量\n\n\n\n\n\n\n\n\n0.00\n0.00 – 0.00\n7.35\n&lt;0.001\n\n\n排気量 × 製造年\n\n\n\n\n\n\n\n\n0.00\n-0.00 – 0.00\n1.55\n0.122\n\n\n排気量 × 分類 [日本車]\n\n\n\n\n\n\n\n\n0.00\n0.00 – 0.00\n3.78\n&lt;0.001\n\n\n排気量 × 分類 [欧州車]\n\n\n\n\n\n\n\n\n-0.00\n-0.00 – 0.00\n-0.90\n0.369\n\n\n馬力 × 製造年\n\n\n\n\n\n\n\n\n-0.00\n-0.01 – -0.00\n-2.45\n0.015\n\n\n車体重量 × 分類 [日本車]\n\n\n\n\n\n\n\n\n-0.00\n-0.01 – -0.00\n-2.46\n0.014\n\n\n車体重量 × 分類 [欧州車]\n\n\n\n\n\n\n\n\n0.00\n-0.00 – 0.00\n0.48\n0.634\n\n\n加速性能 × 製造年\n\n\n\n\n\n\n\n\n0.03\n0.01 – 0.04\n3.06\n0.002\n\n\n加速性能 × 分類 [日本車]\n\n\n\n\n\n\n\n\n0.34\n0.15 – 0.54\n3.45\n0.001\n\n\n加速性能 × 分類 [欧州車]\n\n\n\n\n\n\n\n\n0.44\n0.29 – 0.59\n5.87\n&lt;0.001\n\n\n製造年 × 分類 [日本車]\n\n\n\n\n\n\n\n\n0.11\n0.00 – 0.21\n2.00\n0.046\n\n\n製造年 × 分類 [欧州車]\n\n\n\n\n\n\n\n\n0.11\n0.01 – 0.22\n2.06\n0.040\n\n\nObservations\n392\n392\n392\n\n\nR2 / R2 adjusted\n0.824 / 0.821\n0.821 / 0.818\n0.894 / 0.888\n\n\nAIC\n1390.309\n1392.150\n1217.342\n\n\n\n\n\n\n\n\n自由度調整済み決定係数（\\(R^2\\) adjusted）やAICを比べると， はステップワイズ変数選択モデル，次いで車名除きフルモデル， 最後に手動選択モデルの順に良いモデルとなった。"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#演習課題",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#演習課題",
+    "title": "変数選択法",
+    "section": "演習課題",
+    "text": "演習課題\n\n赤ワインの品質（quality）を予測する重回帰モデルとして， フルモデル，手動選択モデル，ステップワイズ変数選択モデルを作成し性能を評価せよ。\nステップワイズ変数選択で， 化学物質の組み合わせの妙を表現するための交互作用項を導入せよ。\n\nデータの内容は 赤ワインデータの解析 を参照のこと。\n\nd &lt;- read.csv('https://stats.dip.jp/01_ds/data/winequality-red.csv')\ndatatable(d)"
+  },
+  {
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#footnotes",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/content.html#footnotes",
+    "title": "変数選択法",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n統計学がわかった！↩︎\n統計学がわかった！↩︎\n統計学がわかった！↩︎\n総務省統計局 第２講↩︎\nはんかせいのう↩︎\nラッソ↩︎\nrandom forest↩︎\n【Wikipedia】ランダムフォレスト↩︎"
+  },
+  {
+    "objectID": "03_lecture/index.html",
+    "href": "03_lecture/index.html",
     "title": "授業",
     "section": "",
     "text": "オープンキャンパス\n初年次演習（1年春学期）\n初年次演習（1年秋学期）\n基礎数学（1年春学期）\n確率・統計（1年秋学期）\nビジネス アナリティクス（2年春学期）\n機械学習（2年秋学期）\nRプログラミング（3年春学期）\n専門演習（3年春学期）\n専門演習（3年秋学期）\n専門演習（4年春学期）\n専門演習（4年秋学期）"
   },
   {
-    "objectID": "03_lecture/course=03_business_analytics/course=03_business_analytics.html",
-    "href": "03_lecture/course=03_business_analytics/course=03_business_analytics.html",
-    "title": "ビジネス アナリティクス",
+    "objectID": "03_lecture/course=30_junior_spring/index.html",
+    "href": "03_lecture/course=30_junior_spring/index.html",
+    "title": "専門演習（３年春学期）",
     "section": "",
-    "text": "マークダウン記法 演習"
+    "text": "講義資料\n\n\n実施回\nコード付き資料\n発表スライド\n講義タイトル\n\n\n\n\n1\nHTML\nスライド\n変数選択法\n\n\n2\nHTML\nスライド\n\n\n\n3\nHTML\nスライド\n\n\n\n4\nHTML\nスライド\n\n\n\n5\nHTML\nスライド\n\n\n\n6\nHTML\nスライド\n\n\n\n7\nHTML\nスライド\n\n\n\n8\nHTML\nスライド\n\n\n\n9\nHTML\nスライド\n\n\n\n10\nHTML\nスライド\n\n\n\n11\nHTML\nスライド\n\n\n\n12\nHTML\nスライド\n\n\n\n13\nHTML\nスライド\n\n\n\n14\nHTML\nスライド"
   },
   {
-    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#online-markdown-editor-dillinger",
-    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#online-markdown-editor-dillinger",
-    "title": "マークダウン記法 演習",
-    "section": "1.1 Online Markdown Editor – Dillinger",
-    "text": "1.1 Online Markdown Editor – Dillinger\nhttps://dillinger.io"
-  },
-  {
-    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#オプション設定画面",
-    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#オプション設定画面",
-    "title": "マークダウン記法 演習",
-    "section": "1.2 オプション設定画面",
-    "text": "1.2 オプション設定画面\n「Scroll Sync」をONにすると編集画面と表示画面が同期1する。\n\n\n\nオプション設定画面\n\n\n同時にスクロール"
-  },
-  {
-    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#改行",
-    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#改行",
-    "title": "マークダウン記法 演習",
-    "section": "2.1 改行",
-    "text": "2.1 改行\n\n改行は行末に２つの半角スペースを入れる。\nバックスラッシュ「/」を入れる。"
-  },
-  {
-    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#見出し",
-    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#見出し",
-    "title": "マークダウン記法 演習",
-    "section": "2.2 見出し",
-    "text": "2.2 見出し"
-  },
-  {
-    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#箇条書き",
-    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#箇条書き",
-    "title": "マークダウン記法 演習",
-    "section": "2.3 箇条書き",
-    "text": "2.3 箇条書き"
-  },
-  {
-    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#修飾",
-    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#修飾",
-    "title": "マークダウン記法 演習",
-    "section": "2.4 修飾",
-    "text": "2.4 修飾"
-  },
-  {
-    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#引用",
-    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#引用",
-    "title": "マークダウン記法 演習",
-    "section": "2.5 引用",
-    "text": "2.5 引用"
-  },
-  {
-    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#ハイパーリンク",
-    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#ハイパーリンク",
-    "title": "マークダウン記法 演習",
-    "section": "2.6 ハイパーリンク",
-    "text": "2.6 ハイパーリンク"
-  },
-  {
-    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#数式",
-    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#数式",
-    "title": "マークダウン記法 演習",
-    "section": "2.7 数式",
-    "text": "2.7 数式\n数式をインライン（行内；文字の高さで）表示させるには， 数式をLaTeX方式で表記したものを$マークで括る。 \nセンタリング（中央寄せ）し正しい大きさで数式表示する場合， $$マークでる。\n \n\\(x\\)と\\(dx\\)の間の半角スペースは，「～」を使う。"
-  },
-  {
-    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#表",
-    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#表",
-    "title": "マークダウン記法 演習",
-    "section": "2.8 表",
-    "text": "2.8 表"
-  },
-  {
-    "objectID": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#図",
-    "href": "03_lecture/course=03_business_analytics/topic=07_markdown_exercise/topic=07_markdown_exercise.html#図",
-    "title": "マークダウン記法 演習",
-    "section": "2.9 図",
-    "text": "2.9 図\n単発的な図を掲載する記法\n\n図を掲載する場所が複数あるときに便利な記法"
+    "objectID": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#test",
+    "href": "03_lecture/course=30_junior_spring/topic=01_variable_selection/revealjs.html#test",
+    "title": "変数選択法",
+    "section": "4.7 test",
+    "text": "4.7 test"
   }
 ]

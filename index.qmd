@@ -2,8 +2,10 @@
 title: "ホームページ"
 ---
 
-# [教員](02_resume/resume.html)
+# [教員](02_resume)
 
-# [授業](03_lecture/lecture.html)
+# [授業](03_lecture)
 
-# [研究](04_research/research.html)
+# [研究](04_research)
+
+# [顧問](05_advisory)

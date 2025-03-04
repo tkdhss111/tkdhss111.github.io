@@ -1,0 +1,149 @@
+---
+title: "マークダウン記法"
+subtitle: "Topic 06"
+format:
+  revealjs:
+    author: Hisashi Takeda, Ph.D.
+    toc: true
+    slide-number: true
+    number-sections: true
+    chalkboard: true
+    incremental: false
+    lightbox: true
+    code-line-numbers: true
+    code-fold: true
+    code-copy: true
+    smaller: false 
+    scrollable: true
+    lang: "ja"
+    theme: [default, ../../../css/slide.scss]
+    logo: ../../../css/takenoko.png
+    embed-resources: false 
+execute:
+  cache: true
+  freeze: auto
+---
+
+# マークダウン（MD）
+
+
+## マークダウン入門 
+
+-   マークダウン（Markdown）は，文書を記述するための言語の一つ
+
+-   マークダウンの略字として以下「MD」を使用する。
+
+-   MDは、文章の構造を記述するための記号を使って文書を記述する。
+
+    -   記法はシンプルで読み書きが容易
+    -   HTMLに変換することができる
+    -   テキストファイルとして保存できる
+    -   拡張子は「.md」
+
+[【マークダウン記法とは？】マークダウンの書き方を網羅的に解説](https://backlog.com/ja/blog/how-to-write-markdown/)
+
+## YAML
+
+YAML[^1]とは，構造化データを人間の目にわかりやすいように表現できるように設計された言語
+
+[^1]: 今学期一時的に利用するアカウントで本コース終了に削除する
+
+YAMLの記述例：
+
+> title: "ビジネス アナリティクス"\
+> subtitle: "Topic 07"\
+> author: "22123456　竹田 恒"\
+> output:\
+> html_document:\
+> toc: true
+
+-   MDの表示設定をYAMLで定義する。
+-   MDの先頭に記載する設定をYAMLヘッダー[^2]と呼ぶ。
+-   コロン「:」の後ろにスペースを入れることに注意
+
+[^2]: ファイル名はs＋学籍番号.qmdとする。例）「s22123456.qmd」}
+
+## Quarto
+
+-   ビジネス アナリティクスにおける課題演習レポート作成で， **Quarto**（クアルト；拡張子qmd）を使用する。
+
+-   Quartoとは，MDにRやPythonのコードを埋め込むことができる拡張機能を持つファイル形式である。
+
+## RStudioでのQuarto利用
+
+![Rstudio - File - New Project... を開く](fig/rstudio_file_new_project.png)
+
+![Project Type: Quatro Project を選択](fig/rstudio_quatro_project.png){width=30%}
+
+------------------------------------------------------------------------
+
+![プロジェクト名と保存する場所を入力](fig/rstudio_quatro_create.png)
+
+# RStudioでのMD編集モード（Source／Visualモード）
+
+## Sourceモード
+
+通常のMD編集ソースコード画面
+
+![Source表示モード](fig/rstudio_markdown_source_mode.png){width=50%}
+
+## Visualモード
+
+GUIを利用した編集ができる。  
+WYSWYG[^3]（見たまんま表示）画面
+
+![Visual表示モード](fig/rstudio_markdown_visual_mode.png){width=50%}
+
+[^3]: WYSWYG: What You See is What You Get
+
+## レンダリング（HTML変換）
+
+**Render**ボタンを押すとレンダリングする。
+
+![Render on Saveにチェックを入れると保存時（Ctrl+s）にレンダリングするので便利](fig/rstudio_render_on_save.png)
+
+レンダリングとは，
+
+## 演習課題提出用テンプレート作成要領
+
+-   ファイル名は＜学籍番号＞.qmdとする。\
+    例）22123456.qmd
+
+-   YAMLヘッダーの**title**はコース名を記入
+
+    -   例1）title: "ビジネス アナリティクス"
+    -   例2）title: "機械学習"
+
+-   YAMLヘッダーの**subtitle**はトピック番号を記入
+
+    -   例）subtitle: "Topic 07"
+
+-   YAMLヘッダーの**author**は学籍番号を記入
+
+    -   例）author: "22123456"
+
+------------------------------------------------------------------------
+
+YAMLの記述例：
+
+> title: "ビジネス アナリティクス"\
+> subtitle: "Topic 07"\
+> author: "22123456"\
+> date: last-modified\
+> output:\
+> html_document:\
+> toc: true
+
+## RPubs
+
+posix社が提供するサービスで， **Quarto**ファイル（*.qmd）や***Rmarkdown***ファイル（*.Rmd）をHTMLに変換し公開することができる無料のウェブホスティングサービス。
+
+## RPubsアカウント作成
+
+演習課題保存用に**RPubs**のアカウント[^4]を作成する。
+
+[^4]: 今学期一時的に利用するアカウントで本コース終了に削除する
+
+[【Rユーザー必見】あなたのR、Pubってますか？](https://qiita.com/shuseiyokoi/items/224a76b828ed1f236f4a)
+
+全世界に公開されるので，個人情報など機微な情報は記載しないこと。

@@ -1,0 +1,41 @@
+---
+title: '変数選択法　演習課題解答例'
+subtitle: 'データサイエンスコース'
+author: 'Hisashi Takeda, Ph.D.'
+date: '2025-03-04'
+---
+
+{{< include ../../../fmt/fmt_html.qmd >}}
+
+赤ワインの品質を予測する重回帰モデルとして， フルモデル，手動選択モデル，ステップワイズ変数選択モデルを作成し性能を評価する。
+
+データの内容は[赤ワインデータの解析](https://www.statlab.co.jp/seminar/redwine01.html)のサイトを参照のこと。
+
+```{r}
+d <- read.csv('https://stats.dip.jp/01_ds/data/winequality-red.csv')
+head(d)
+
+library(DT)
+datatable(d)
+
+fit.full <- lm(quality ~ ., data = d) # .はフルモデル（すべての説明変数を使う）
+library(sjPlot)
+tab_model(fit.full, show.stat = T, show.aic = T)
+
+fit.manual <- lm(quality ~ volatile.acidity + chlorides + free.sulfur.dioxide + total.sulfur.dioxide + pH + sulphates + alcohol, data = d)
+tab_model(fit.manual, show.stat = T, show.aic = T)
+
+library(MASS)
+fit.aic <- stepAIC(lm(quality ~ (.)^2, data = d), trace = 0)
+tab_model(fit.aic, show.stat = T, show.aic = T)
+
+tab_model(fit.full, fit.manual, fit.aic, show.aic = T,
+          dv.labels = c('フルモデル', 
+                        '手動モデル',
+                        'ステップワイズ変数選択モデル'))
+```
+
+自由度調整済み決定係数（adjusted R2）が最も大きく，AICが最も小さい
+モデルはステップワイズ変数選択法で得られた回帰モデルである。
+
+決定係数（R2）から42％のデータの変動をこのモデルで説明できることが分かる。

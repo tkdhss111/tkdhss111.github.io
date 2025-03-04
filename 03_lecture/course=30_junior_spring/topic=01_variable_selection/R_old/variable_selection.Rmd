@@ -1,0 +1,113 @@
+---
+title: '回帰分析（変数選択法）'
+author: '東京国際大学 データサイエンス教育研究所 竹田 恒'
+date: '`r Sys.Date()`'
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    number_sections: yes
+---
+
+```{r setup, include=FALSE}
+rm(list = ls())
+knitr::opts_chunk$set(echo = TRUE, message = TRUE, warning = TRUE)
+```
+
+---
+
+車の燃費データを使って回帰分析する。
+
+# データ
+
+単位はオリジナル（出典参照）から馴染みのあるものに変換した。
+
+出典：[【UCI Machine Learning Repository】Auto MPG Data Set](https://archive.ics.uci.edu/ml/datasets/Auto+MPG)
+
+説明変数|内容（単位）
+--------|-------------------------
+    燃費|燃費（km/L）
+  気筒数|気筒数（本）
+  排気量|排気量（cc）
+    馬力|馬力（hp）
+車体重量|車体重量（kg）
+加速性能|加速性能：時速97km（60mile）に到達する時間（秒）
+  製造年|製造年（年）
+    分類|アメ車，日本車，欧州車の3区分
+    車名|車名（英語）
+```{r}
+d <- read.csv('https://stats.dip.jp/01_ds/data/car_mileage.csv')
+rownames(d) <- paste0('No.', 1:nrow(d))
+
+library(DT)
+datatable(d)
+```
+
+# フィッティング
+
+車名を除くすべての説明変数を使って回帰分析する。
+【注意】車名を入れると変数の数がデータサイズに近づき過学習する。
+
+```{r message=FALSE}
+fit.full <- lm(燃費 ~ 気筒数 + 排気量 + 馬力 + 車体重量 + 加速性能 + 製造年 + 分類, data = d)
+#summary(fit.full)
+library(sjPlot)
+tab_model(fit.full, show.stat = T, show.aic = T)
+
+```
+
+# 変数を手動選択 
+
+有意でない偏回帰係数を持つ説明変数を除外
+
+```{r}
+fit.manual <- lm(燃費 ~ 排気量 + 車体重量 + 製造年 + 分類, data = d)
+#summary(fit.manual)
+tab_model(fit.manual, show.stat = T, show.aic = T)
+```
+
+# ステップワイズ変数選択
+
+変数間の相乗効果を表す**交互作用項**を追加（モデル式を2乗）する。
+交互変数を追加すると組み合わせ数が多くなり，手動では変数選択が難しいため，
+ステップワイズ変数選択法を使用する。
+
+【注意】ステップワイズ変数選択では有意でない偏回帰係数も選択される。
+これはモデル選択の基準となるAICが予測誤差最小を評価する指標であり，
+偏回帰係数の有意性の有無は考慮していないためである。  
+
+```{r}
+library(MASS)
+fit.aic <- stepAIC(lm(燃費 ~ (気筒数 + 排気量 + 馬力 + 車体重量 + 加速性能 + 製造年 + 分類)^2, data = d), trace = 0)
+#summary(fit.aic)
+tab_model(fit.aic, show.stat = T, show.aic = T)
+```
+
+# モデル比較
+
+```{r}
+tab_model(fit.full, fit.manual, fit.aic, 
+          show.stat = T, show.aic = T,
+          dv.labels = c('車名除きフルモデル',
+                        '手動選択モデル', 
+                        'ステップワイズ変数選択モデル'))
+```
+
+>自由度調整済み決定係数（$R^2$ adjusted）やAICを比べると，
+>は**ステップワイズ変数選択モデル**，次いで**車名除きフルモデル**，
+>最後に**手動選択モデル**の順に良いモデルとなった。
+
+# 演習課題
+
+赤ワインの品質（quality）を予測する重回帰モデルとして，
+フルモデル，手動選択モデル，ステップワイズ変数選択モデルを作成し性能を評価せよ。  
+ステップワイズ変数選択では，
+化学物質の組み合わせの妙を表現するための交互作用項を導入せよ。
+
+データの内容は次のURLを参照のこと。  
+[赤ワインデータの解析](https://www.statlab.co.jp/seminar/redwine01.html)
+
+```{r}
+d <- read.csv('https://stats.dip.jp/01_ds/data/winequality-red.csv')
+datatable(d)
+```

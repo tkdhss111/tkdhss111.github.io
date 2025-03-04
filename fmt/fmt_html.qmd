@@ -1,0 +1,20 @@
+---
+format:
+  html:
+    embed-resources: false
+    toc: true
+    number-sections: true
+    code-line-numbers: true
+    code-fold: true
+    code-copy: true
+    lang: 'ja'
+    theme: [default, ../../../css/slide.scss]
+    logo: ../../../css/takenoko.png
+    reference-location: margin
+    citation-location: margin
+    fig-cap-location: bottom
+    tbl-cap-location: top
+execute:
+  cache: true
+  freeze: auto
+---
