@@ -41,7 +41,7 @@ GitHub Actions がビルドして `gh-pages` ブランチへ公開する。
 1. このリポジトリのページ上部にある緑色の
    **Use this template → Create a new repository** を押す
 2. **Repository name** に `<自分の GitHub ユーザー名>.github.io` と入力する
-   - 例：ユーザー名が `yamada` なら `yamada.github.io`
+   - 例：ユーザー名が `s12345678` なら `s12345678.github.io`
    - **この名前でないと公開されません**
 3. 公開範囲は **Public** を選ぶ
    - 無料アカウントでは、Private だと GitHub Pages を使えません
