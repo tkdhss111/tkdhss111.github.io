@@ -42,67 +42,33 @@ website:
         aria-label: GitHub
 
   # ---------------------------------------------------------------------------
-  # サイドバーは配列で複数定義できる。Quarto は「表示中のページを contents に
-  # 含むサイドバー」を自動的に選ぶ。これを利用して日本語版と英語版で
-  # ナビゲーションを切り替えている（Quarto には多言語サイトの専用機能が無いため、
-  # ディレクトリを分けて2セット用意するのが定石）。
+  # サイドバー（左側のナビゲーション）。
+  # contents に並べた順序が、そのまま表示順とページ送りの順序になる。
   # ---------------------------------------------------------------------------
   sidebar:
-    - id: ja
-      title: "竹田 恒"
-      style: docked
-      align: center
-      pinned: true
-      search: true
-      collapse-level: 1
-      contents:
-        - text: "ホーム"
-          href: index.qmd
-        - text: "経歴"
-          href: about.qmd
-        - text: "専門領域"
-          href: work.qmd
-        - text: "技術スタック"
-          href: engineering.qmd
-        - text: "研究業績"
-          href: writing.qmd
-        - text: "連絡先"
-          href: contact.qmd
-        - text: "---"          # 区切り線
-        - text: "English"
-          href: en/index.qmd
-      tools:
-        - icon: github
-          href: https://github.com/tkdhss111
-          text: GitHub
-
-    - id: en
-      title: "Hisashi Takeda"
-      style: docked
-      align: center
-      pinned: true
-      search: true
-      collapse-level: 1
-      contents:
-        - text: "Home"
-          href: en/index.qmd
-        - text: "About"
-          href: en/about.qmd
-        - text: "Work"
-          href: en/work.qmd
-        - text: "Engineering"
-          href: en/engineering.qmd
-        - text: "Publications"
-          href: en/writing.qmd
-        - text: "Contact"
-          href: en/contact.qmd
-        - text: "---"
-        - text: "日本語"
-          href: index.qmd
-      tools:
-        - icon: github
-          href: https://github.com/tkdhss111
-          text: GitHub
+    title: "竹田 恒"
+    style: docked
+    align: center
+    pinned: true
+    search: true
+    collapse-level: 1
+    contents:
+      - text: "ホーム"
+        href: index.qmd
+      - text: "経歴"
+        href: about.qmd
+      - text: "専門領域"
+        href: work.qmd
+      - text: "技術スタック"
+        href: engineering.qmd
+      - text: "研究業績"
+        href: writing.qmd
+      - text: "連絡先"
+        href: contact.qmd
+    tools:
+      - icon: github
+        href: https://github.com/tkdhss111
+        text: GitHub
 
 # =============================================================================
 # 出力フォーマット。website プロジェクトでは html 一択でよい。

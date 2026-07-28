@@ -10,9 +10,8 @@
 ```
 .
 ├── _quarto.yml          プロジェクト設定（サイドバー・テーマ・出力先）
-├── index.qmd            日本語ページ（サイト直下）
+├── index.qmd            トップページ
 ├── about.qmd  work.qmd  engineering.qmd  writing.qmd  contact.qmd
-├── en/                  英語ページ（同じ構成のミラー）
 ├── _includes/           <head> に差し込む断片
 ├── fig/                 サイトで使う画像
 ├── styles.css           共通スタイル
