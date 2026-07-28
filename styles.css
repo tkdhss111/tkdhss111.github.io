@@ -5,50 +5,41 @@
    個別の見た目を整えたいときはこちら（素の CSS）、と使い分ける。
    =========================================================================== */
 
-/* サイドバーのタイトル（氏名）を少し大きく */
-.sidebar-title {
-  font-size: 1.5rem;
-}
-
-.sidebar-logo {
-  max-width: 150px;
-}
-
-/* --- トップページの顔写真 ------------------------------------------------ */
+/* --- 顔写真 --------------------------------------------------------------- */
 .profile-photo {
-  width: 180px;
+  width: 150px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
-  margin: 0 auto 1.5rem auto;
+  margin: 0 auto 1.2rem auto;
 }
 
-/* --- 肩書き（氏名の下の一行） -------------------------------------------- */
+/* --- 肩書き（氏名の下） --------------------------------------------------- */
 .tagline {
-  font-size: 1.1rem;
-  line-height: 1.8;
+  font-size: 1.05rem;
+  line-height: 1.9;
   text-align: center;
   margin-bottom: 2rem;
 }
 
-/* --- 経歴・業績で使う年表 ------------------------------------------------
+/* --- 年表 -----------------------------------------------------------------
    dl（定義リスト）を「年 | 内容」の2列に見せる。
    Markdown では次のように書ける:
 
-     1996年   筑波大学 第三学群 基礎工学類 卒業
-     :  工学士
+     1996年
+     :   筑波大学 第三学群 基礎工学類 卒業
 
-   ------------------------------------------------------------------------ */
+   --------------------------------------------------------------------------- */
 .timeline dt {
   float: left;
-  width: 7rem;
+  width: 7.5rem;
   font-weight: 600;
   opacity: 0.75;
 }
 
 .timeline dd {
-  margin-left: 7rem;
-  margin-bottom: 0.6rem;
+  margin-left: 7.5rem;
+  margin-bottom: 0.7rem;
 }
 
 /* 画面が狭いときは2列をやめて縦積みにする */
@@ -59,5 +50,65 @@
   }
   .timeline dd {
     margin-left: 0;
+  }
+}
+
+/* ===========================================================================
+   印刷用スタイル
+   ブラウザの「印刷 / PDF に保存」で A4 に収まるように整える。
+   @media print の中の指定は、画面表示には一切影響しない。
+   =========================================================================== */
+@media print {
+
+  /* 用紙サイズと余白 */
+  @page {
+    size: A4;
+    margin: 18mm 16mm;
+  }
+
+  /* 画面用の装飾は印刷しない */
+  .quarto-title-banner,
+  .page-footer,
+  .quarto-code-tools,
+  #quarto-back-to-top,
+  nav,
+  footer {
+    display: none !important;
+  }
+
+  body {
+    font-size: 10.5pt;
+    line-height: 1.55;
+    background: white !important;
+    color: black !important;
+  }
+
+  /* 顔写真は紙面では小さめに */
+  .profile-photo {
+    width: 100px;
+    margin-bottom: 0.8rem;
+  }
+
+  .tagline {
+    font-size: 10.5pt;
+    margin-bottom: 1.2rem;
+  }
+
+  /* 見出しがページ末尾に取り残されないようにする */
+  h1, h2, h3 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  /* 年表の1項目が2ページに割れないようにする */
+  .timeline dd {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* リンクは下線だけにして、URL は展開しない（紙面が長くなるため） */
+  a {
+    color: black !important;
+    text-decoration: underline;
   }
 }

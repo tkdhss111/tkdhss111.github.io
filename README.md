@@ -10,8 +10,7 @@
 ```
 .
 ├── _quarto.yml          プロジェクト設定（サイドバー・テーマ・出力先）
-├── index.qmd            トップページ
-├── about.qmd  work.qmd  engineering.qmd  writing.qmd  contact.qmd
+├── index.qmd            本体（1ページ構成なので、これがサイト全体）
 ├── _includes/           <head> に差し込む断片
 ├── fig/                 サイトで使う画像
 ├── styles.css           共通スタイル
@@ -41,12 +40,9 @@ renv::restore()
 
 読む順序:
 
-1. `index.qmd` —— フロントマターと画像だけの最小構成
-2. `about.qmd` —— div（`:::`）と定義リスト
-3. `work.qmd` —— 図のラベルと相互参照、コールアウト
-4. `engineering.qmd` —— Mermaid 図、タブセット
-5. `writing.qmd` —— 表
-6. `_quarto.yml` —— サイト全体の組み立て
+1. `index.qmd` —— フロントマター、div（`:::`）、定義リスト
+2. `styles.css` —— 年表レイアウトと印刷用スタイル
+3. `_quarto.yml` —— サイト全体の組み立て
 
 ## 注意
 

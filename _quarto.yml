@@ -1,30 +1,27 @@
 # =============================================================================
 # _quarto.yml — プロジェクト設定ファイル
 #
-# Quarto はこのファイルを見てサイト全体をビルドします。個々の .qmd に書いた
-# 設定より優先順位が低く、「サイト共通の既定値」を置く場所です。
-# 各ページ固有の設定は、その .qmd の冒頭（YAML フロントマター）に書きます。
+# Quarto はこのファイルを見てサイトをビルドします。個々の .qmd に書いた設定より
+# 優先順位が低く、「サイト共通の既定値」を置く場所です。
+# ページ固有の設定は、その .qmd の冒頭（YAML フロントマター）に書きます。
 #
-# ビルド:  quarto render      → docs/ に出力
+# ビルド:    quarto render   → docs/ に出力
 # プレビュー: quarto preview  → ブラウザで自動リロード
 # =============================================================================
 
 project:
-  type: website        # website / book / manuscript などを指定。website は複数ページ構成
+  type: website
   output-dir: docs     # 出力先。GitHub Actions が docs/ を gh-pages ブランチへ公開する
 
-# 計算結果のキャッシュ設定。
-#   auto  … .qmd を変更したページだけ再計算する（開発中はこれが快適）
-#   true  … 一切再計算しない。CI に R 環境が無くてもビルドできる
-# R チャンクを本格的に使い始めたら true への切り替えを検討する。
+# 計算結果のキャッシュ設定。R チャンクを使っていないので実質的に無関係だが、
+# 将来チャンクを追加したときの既定として auto にしておく。
 execute:
   freeze: auto
 
-# 既定の言語。英語ページ側は各 .qmd で lang: en と上書きする。
 lang: ja
 
 website:
-  title: "竹田 恒 | Hisashi Takeda"
+  title: "竹田 恒"
   site-url: https://tkdhss111.github.io
   repo-url: https://github.com/tkdhss111/tkdhss111.github.io
 
@@ -32,47 +29,13 @@ website:
   # このサイトの .qmd 自体を R 授業の教材として読ませるための設定。
   repo-actions: [source]
 
-  page-navigation: true   # ページ下部に「前へ / 次へ」を表示
+  # 1ページ構成なので、サイドバー・ページ送り・検索はいずれも不要。
+  # website プロジェクトのまま公開パイプラインだけを使う。
+  page-navigation: false
 
   page-footer:
-    left: "&copy; 2026 Hisashi Takeda"
-    right:
-      - icon: github
-        href: https://github.com/tkdhss111
-        aria-label: GitHub
+    center: "&copy; 2026 竹田 恒"
 
-  # ---------------------------------------------------------------------------
-  # サイドバー（左側のナビゲーション）。
-  # contents に並べた順序が、そのまま表示順とページ送りの順序になる。
-  # ---------------------------------------------------------------------------
-  sidebar:
-    title: "竹田 恒"
-    style: docked
-    align: center
-    pinned: true
-    search: true
-    collapse-level: 1
-    contents:
-      - text: "ホーム"
-        href: index.qmd
-      - text: "経歴"
-        href: about.qmd
-      - text: "専門領域"
-        href: work.qmd
-      - text: "技術スタック"
-        href: engineering.qmd
-      - text: "研究業績"
-        href: writing.qmd
-      - text: "連絡先"
-        href: contact.qmd
-    tools:
-      - icon: github
-        href: https://github.com/tkdhss111
-        text: GitHub
-
-# =============================================================================
-# 出力フォーマット。website プロジェクトでは html 一択でよい。
-# =============================================================================
 format:
   html:
     theme:
@@ -80,8 +43,7 @@ format:
       dark: [cosmo, theme-dark.scss]  # cosmo を土台に自作 scss を重ねる
     css: styles.css
     mainfont: "Klee One"
-    toc: true
-    toc-location: left
-    code-copy: true       # コードブロックにコピーボタンを付ける
-    code-tools: true      # 「</> Code」メニューからページのソースを表示できる
+    toc: false          # 1ページなので目次は置かない
+    code-copy: true
+    code-tools: true    # 「</> Code」からこのページの .qmd ソースを表示できる
     include-in-header: _includes/header.html
