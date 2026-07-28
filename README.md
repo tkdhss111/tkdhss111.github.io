@@ -18,14 +18,18 @@ GitHub Actions がビルドして `gh-pages` ブランチへ公開する。
 | | やること | どこで |
 |:--|:--|:--|
 | 1 | テンプレートから自分のリポジトリを作る | GitHub |
-| 2 | 手元に取ってくる（clone） | 端末 |
-| 3 | `gh-pages` ブランチを作る（最初の一度だけ） | 端末 |
+| 2 | RStudio でプロジェクトとして開く | RStudio |
+| 3 | `gh-pages` ブランチを作る（最初の一度だけ） | RStudio の Terminal |
 | 4 | Pages の公開設定をする | GitHub |
-| 5 | Quarto をインストールする | 端末 |
-| 6 | 内容を自分のものに書き換える | エディタ |
-| 7 | 手元で表示を確認する | 端末 |
-| 8 | push する | 端末 |
+| 5 | Quarto が使えるか確認する | RStudio の Terminal |
+| 6 | 内容を自分のものに書き換える | RStudio のエディタ |
+| 7 | 手元で表示を確認する | RStudio |
+| 8 | push する | RStudio の Terminal |
 | 9 | 公開されたか確認する | ブラウザ |
+
+このテンプレートは **RStudio** で使うことを想定しています。
+`git` のコマンドは、RStudio 下部の **Terminal** タブに打ち込みます
+（**Console** タブではありません。Console は R のコードを書くところです）。
 
 **3 と 4 を先に済ませておくこと。**
 この2つを飛ばして 8 の push をすると、自動ビルドが失敗します。
@@ -46,19 +50,31 @@ GitHub Actions がビルドして `gh-pages` ブランチへ公開する。
 > テンプレートから作ったリポジトリは、元のリポジトリとは切り離された
 > 独立したものになります（fork とは違い、履歴も引き継ぎません）。
 
-## 手順 2. 手元に取ってくる
+## 手順 2. RStudio でプロジェクトとして開く
 
-```sh
-git clone https://github.com/<ユーザー名>/<ユーザー名>.github.io.git
-cd <ユーザー名>.github.io
-```
+まず、GitHub の自分のリポジトリのページで緑色の **Code** ボタンを押し、
+表示される HTTPS の URL をコピーします。
 
-以降のコマンドは、すべてこのディレクトリの中で実行します。
+RStudio で次のように進みます。
+
+1. **File → New Project...**
+2. **Version Control** を選ぶ
+3. **Git** を選ぶ
+4. **Repository URL** にコピーした URL を貼り付ける
+5. **Create Project** を押す
+
+新しいウィンドウでプロジェクトが開きます。
+以降の作業は、すべてこのプロジェクトの中で行います。
+
+> プロジェクトとして開くと、作業ディレクトリが自動的にリポジトリの場所になります。
+> `cd` で移動する必要はありません。
 
 ## 手順 3. `gh-pages` ブランチを作る（最初の一度だけ）
 
 公開用のワークフローは、既にある `gh-pages` ブランチを**更新**することはできますが、
 **新しく作ることはできません**。そのため、最初に一度だけ自分で用意します。
+
+RStudio 下部の **Terminal** タブを開き、次を1行ずつ実行します。
 
 ```sh
 git switch --orphan gh-pages
@@ -89,15 +105,19 @@ git branch -a
 
 > **GitHub Actions** は選ばないでください。この公開方式と衝突します。
 
-## 手順 5. Quarto をインストールする
+## 手順 5. Quarto が使えるか確認する
 
-<https://quarto.org/docs/get-started/> から自分の OS 用のものを入れます。
+最近の RStudio には Quarto が同梱されているため、
+**多くの場合インストールは不要**です。
 
-入ったか確認します。バージョン番号が表示されれば成功です。
+**Terminal** タブで確認します。バージョン番号が出れば、そのまま使えます。
 
 ```sh
 quarto --version
 ```
+
+`command not found` と出た場合だけ、
+<https://quarto.org/docs/get-started/> から入れてください。
 
 ## 手順 6. 内容を自分のものに書き換える
 
@@ -119,25 +139,52 @@ quarto --version
 
 ## 手順 7. 手元で表示を確認する
 
+`index.qmd` を開いた状態で、エディタ上部の **Render** ボタンを押します。
+書き出された結果が RStudio の **Viewer** ペインに表示されます。
+
+保存するたびに自動で更新させたいときは、**Terminal** タブで次を実行します。
+
 ```sh
 quarto preview
 ```
 
-ブラウザが開き、ファイルを保存するたびに表示が更新されます。
-確認が済んだら `Ctrl-C` で止めます。
+確認が済んだら、Terminal で `Ctrl-C` を押して止めます。
 
-書き出すだけなら次のとおりです（`docs/` に出力されます）。
-
-```sh
-quarto render
-```
+> **Render** の左にある歯車から **Preview in Browser** を選ぶと、
+> Viewer ではなくブラウザで開けます。画面が広く見やすいのでおすすめです。
 
 ## 手順 8. push する
+
+**Terminal** タブで実行します。
 
 ```sh
 git add .
 git commit -m "自己紹介ページを書いた"
 git push
+```
+
+### 初回の push で認証を求められたら
+
+`Username` と `Password` を聞かれます。ここで **GitHub のログインパスワードは使えません**。
+代わりに「個人アクセストークン（Personal Access Token）」を作って、
+それを `Password` として貼り付けます。
+
+1. GitHub 右上の自分のアイコン → **Settings**
+2. 左メニューのいちばん下 **Developer settings**
+3. **Personal access tokens → Tokens (classic)**
+4. **Generate new token (classic)** を押す
+5. **Note** に用途（例：`rstudio`）を書き、**Expiration** を選ぶ
+6. **Select scopes** で **`repo`** にチェックを入れる
+7. **Generate token** を押し、表示された文字列をコピーする
+
+> トークンは**その画面を離れると二度と表示されません**。
+> 必ずコピーして、パスワード管理ソフトなどに保存してください。
+
+`Username` には GitHub のユーザー名、`Password` にはコピーしたトークンを入力します。
+毎回入力したくない場合は、一度だけ次を実行しておくと保存されます。
+
+```sh
+git config --global credential.helper store
 ```
 
 ## 手順 9. 公開されたか確認する
@@ -162,6 +209,7 @@ git push
 ├── theme-dark.scss      ダークモード用の色設定
 ├── _includes/           <head> に差し込む断片（フォント読み込みなど）
 ├── fig/                 画像置き場
+├── website.Rproj        RStudio のプロジェクト設定
 └── .github/workflows/   GitHub Actions の設定
 ```
 
@@ -202,5 +250,9 @@ Markdown 中の HTML コメント（`<!-- -->`）も、そのまま出力に残�
 | README がそのまま表示される | 手順 4 の Source が `main` のままになっている |
 | リポジトリ名を間違えた | Settings → General → Repository name で変更できる |
 | ファイルが消えた | 手順 3 の途中で `git switch main` を忘れていないか確認 |
+| push で認証エラーになる | パスワードではなくトークンを使う（手順 8 の後半を参照） |
+| `git` が使えない | Console タブに打っていないか確認する（Terminal タブで実行する） |
+| Terminal タブが無い | **Tools → Terminal → New Terminal**（`Alt-Shift-M`）で開く |
+| Render ボタンが無い | `index.qmd` を開いているか確認する |
 | 画像が出ない | `fig/` のファイル名と `index.qmd` の `src=` が一致しているか確認 |
 | タブに名前が二重に出る | `_quarto.yml` の `title` と `index.qmd` の `pagetitle` を同じ文字列にする |
