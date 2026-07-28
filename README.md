@@ -41,7 +41,7 @@ renv::restore()
 読む順序:
 
 1. `index.qmd` —— フロントマター、div（`:::`）、定義リスト
-2. `styles.css` —— 年表レイアウトと印刷用スタイル
+2. `styles.css` —— 年表レイアウト
 3. `_quarto.yml` —— サイト全体の組み立て
 
 ## 注意
