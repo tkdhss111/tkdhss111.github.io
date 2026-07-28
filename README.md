@@ -14,24 +14,25 @@ GitHub Actions がビルドして `gh-pages` ブランチへ公開する。
 
 ## 1. 自分のリポジトリを作る
 
-**リポジトリ名は必ず `<自分の GitHub ユーザー名>.github.io` にすること。**
-この名前でないと `https://<ユーザー名>.github.io/` では公開されません。
+このリポジトリのページ上部にある緑色の
+**Use this template → Create a new repository** を押します。
 
-GitHub 上で空のリポジトリ `<ユーザー名>.github.io` を作り、
-このリポジトリの **Code → Download ZIP** で中身を落として、そこに入れます。
+作成画面では次の2点に注意してください。
+
+- **Repository name** は必ず `<自分の GitHub ユーザー名>.github.io` にする。
+  この名前でないと `https://<ユーザー名>.github.io/` では公開されません。
+- 公開範囲は **Public** にする。
+  無料アカウントでは、Private だと GitHub Pages で公開できません。
+
+できたら、手元に取ってきます。
 
 ```sh
-# ZIP を展開したら、その中で
-git init
-git add .
-git commit -m "最初のコミット"
-git branch -M main
-git remote add origin https://github.com/<ユーザー名>/<ユーザー名>.github.io.git
-git push -u origin main
+git clone https://github.com/<ユーザー名>/<ユーザー名>.github.io.git
+cd <ユーザー名>.github.io
 ```
 
-（このリポジトリに **Use this template** ボタンがある場合は、
-そこから作ったうえで `git clone` するほうが簡単です。）
+> テンプレートから作ったリポジトリは、元のリポジトリとは切り離された
+> 独立したものになります（fork とは違い、履歴も引き継ぎません）。
 
 ## 2. 必要なソフト
 
