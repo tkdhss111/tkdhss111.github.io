@@ -1,10 +1,30 @@
 [
   {
-    "objectID": "index.html#todo-3つの訴求点",
-    "href": "index.html#todo-3つの訴求点",
+    "objectID": "index.html#統計モデルから運用システムまで",
+    "href": "index.html#統計モデルから運用システムまで",
     "title": "竹田 恒",
-    "section": "TODO: 3つの訴求点",
-    "text": "TODO: 3つの訴求点",
+    "section": "統計モデルから運用システムまで",
+    "text": "統計モデルから運用システムまで\n電力需要予測を専門とし、20年以上にわたり研究開発に従事してきました。 統計モデルの設計だけでなく、実際に電力会社の業務で動く予測システムの実装までを 一貫して手がけています。",
+    "crumbs": [
+      "ホーム"
+    ]
+  },
+  {
+    "objectID": "index.html#実務と理論の両方から",
+    "href": "index.html#実務と理論の両方から",
+    "title": "竹田 恒",
+    "section": "実務と理論の両方から",
+    "text": "実務と理論の両方から\n電力会社の研究所で実務課題に取り組みながら統計科学の博士号を取得し、 アンサンブル・データ同化に基づく予測手法を査読付き国際誌に発表してきました。 現在は大学で教育・研究に携わりつつ、自ら設立した会社で予測技術の社会実装を進めています。",
+    "crumbs": [
+      "ホーム"
+    ]
+  },
+  {
+    "objectID": "index.html#予測を届くかたちに",
+    "href": "index.html#予測を届くかたちに",
+    "title": "竹田 恒",
+    "section": "予測を、届くかたちに",
+    "text": "予測を、届くかたちに\n需要・太陽光・風力・市場価格の予測を、気象数値予報の取り込みから 配信基盤までまとめて設計・構築しています。",
     "crumbs": [
       "ホーム"
     ]
@@ -80,11 +100,31 @@
     ]
   },
   {
-    "objectID": "en/index.html#todo-three-proof-points",
-    "href": "en/index.html#todo-three-proof-points",
+    "objectID": "en/index.html#from-statistical-models-to-production-systems",
+    "href": "en/index.html#from-statistical-models-to-production-systems",
     "title": "Hisashi Takeda",
-    "section": "TODO: three proof points",
-    "text": "TODO: three proof points",
+    "section": "From statistical models to production systems",
+    "text": "From statistical models to production systems\nI have spent more than twenty years on electricity load forecasting — designing the statistical models, and also building the systems that run them in utility operations.",
+    "crumbs": [
+      "English"
+    ]
+  },
+  {
+    "objectID": "en/index.html#practice-and-theory-together",
+    "href": "en/index.html#practice-and-theory-together",
+    "title": "Hisashi Takeda",
+    "section": "Practice and theory together",
+    "text": "Practice and theory together\nI earned a doctorate in statistical science while working on operational problems at a utility research institute, publishing ensemble data-assimilation methods for forecasting in peer-reviewed international journals. I now teach and research at a university while bringing forecasting technology into practice through the company I founded.",
+    "crumbs": [
+      "English"
+    ]
+  },
+  {
+    "objectID": "en/index.html#forecasts-that-reach-the-people-who-need-them",
+    "href": "en/index.html#forecasts-that-reach-the-people-who-need-them",
+    "title": "Hisashi Takeda",
+    "section": "Forecasts that reach the people who need them",
+    "text": "Forecasts that reach the people who need them\nI design and build the whole path — from ingesting numerical weather prediction through to the delivery platform — for load, solar, wind, and price forecasts.",
     "crumbs": [
       "English"
     ]
@@ -274,17 +314,17 @@
     "href": "about.html#職歴",
     "title": "経歴",
     "section": "職歴",
-    "text": "職歴\n\n\n1998–2022年\n\n東京電力 —— TODO: 所属変遷の要約（研究員 → 主幹研究員、応用統計技術スペシャリスト認定）\n\n2022年–\n\n東京国際大学 データサイエンス教育研究所 教授\n\n\nTODO: 掲載可否を確認中\n\n2025年–\n\nタケデータ・アナリティクス合同会社 代表",
+    "text": "職歴\n\n\n1998–2022年\n\n東京電力 —— 研究所にて、設備保守・経営・需給運用の各分野で 統計解析とシステム開発に従事。2015年、応用統計技術のスペシャリストに認定。\n\n2022年–\n\n東京国際大学 データサイエンス教育研究所 教授\n\n2025年–\n\nタケデータ・アナリティクス合同会社 代表",
     "crumbs": [
       "経歴"
     ]
   },
   {
-    "objectID": "about.html#todo-20212026年",
-    "href": "about.html#todo-20212026年",
+    "objectID": "about.html#todo-20212026年の活動",
+    "href": "about.html#todo-20212026年の活動",
     "title": "経歴",
-    "section": "TODO: 2021–2026年",
-    "text": "TODO: 2021–2026年",
+    "section": "TODO: 2021–2026年の活動",
+    "text": "TODO: 2021–2026年の活動",
     "crumbs": [
       "経歴"
     ]
@@ -294,7 +334,7 @@
     "href": "about.html#専門分野",
     "title": "経歴",
     "section": "専門分野",
-    "text": "専門分野\nTODO: スキルを4群に整理して記述（予測 / HPC / データ基盤 / インフラ）",
+    "text": "専門分野\n\n\n予測\n\n時系列解析、状態空間モデル、データ同化（アンサンブルフィルタ）、 回帰・一般化線形モデル、ベイズ統計\n\n対象\n\n電力需要、太陽光・風力発電量、電力市場価格、気象数値予報の補正\n\n計算\n\nR、Fortran、SQL。並列計算・大規模データ処理",
     "crumbs": [
       "経歴"
     ]
@@ -324,7 +364,7 @@
     "href": "en/about.html#appointments",
     "title": "About",
     "section": "Appointments",
-    "text": "Appointments\n\n\n1998–2022\n\nTokyo Electric Power Company — TODO: summarise progression\n\n2022–\n\nProfessor, Institute for Data Science Education, Tokyo International University\n\n\nTODO: confirm whether to publish\n\n2025–\n\nFounder, TAKEDATA ANALYTICS LLC",
+    "text": "Appointments\n\n\n1998–2022\n\nTokyo Electric Power Company — statistical analysis and system development at the research institute, spanning asset maintenance, corporate planning, and supply–demand operations. Certified Specialist in Applied Statistics, 2015.\n\n2022–\n\nProfessor, Institute for Data Science Education, Tokyo International University\n\n2025–\n\nFounder, TAKEDATA ANALYTICS LLC",
     "crumbs": [
       "About"
     ]
@@ -344,7 +384,7 @@
     "href": "en/about.html#expertise",
     "title": "About",
     "section": "Expertise",
-    "text": "Expertise\nTODO",
+    "text": "Expertise\n\n\nMethods\n\nTime series analysis, state-space models, data assimilation (ensemble filters), regression and generalized linear models, Bayesian statistics\n\nDomains\n\nElectricity load, photovoltaic and wind generation, power market prices, numerical weather prediction bias correction\n\nComputing\n\nR, Fortran, SQL; parallel computing and large-scale data processing",
     "crumbs": [
       "About"
     ]
