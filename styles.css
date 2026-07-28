@@ -1,0 +1,63 @@
+/* ===========================================================================
+   styles.css — サイト共通のスタイル
+   _quarto.yml の  css: styles.css  で読み込まれる。
+   テーマ変数を変えたいときは theme-dark.scss（SCSS）、
+   個別の見た目を整えたいときはこちら（素の CSS）、と使い分ける。
+   =========================================================================== */
+
+/* サイドバーのタイトル（氏名）を少し大きく */
+.sidebar-title {
+  font-size: 1.5rem;
+}
+
+.sidebar-logo {
+  max-width: 150px;
+}
+
+/* --- トップページの顔写真 ------------------------------------------------ */
+.profile-photo {
+  width: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 1.5rem auto;
+}
+
+/* --- 肩書き（氏名の下の一行） -------------------------------------------- */
+.tagline {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* --- 経歴・業績で使う年表 ------------------------------------------------
+   dl（定義リスト）を「年 | 内容」の2列に見せる。
+   Markdown では次のように書ける:
+
+     1996年   筑波大学 第三学群 基礎工学類 卒業
+     :  工学士
+
+   ------------------------------------------------------------------------ */
+.timeline dt {
+  float: left;
+  width: 7rem;
+  font-weight: 600;
+  opacity: 0.75;
+}
+
+.timeline dd {
+  margin-left: 7rem;
+  margin-bottom: 0.6rem;
+}
+
+/* 画面が狭いときは2列をやめて縦積みにする */
+@media (max-width: 576px) {
+  .timeline dt {
+    float: none;
+    width: auto;
+  }
+  .timeline dd {
+    margin-left: 0;
+  }
+}

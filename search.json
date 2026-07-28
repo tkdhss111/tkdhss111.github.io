@@ -1,0 +1,512 @@
+[
+  {
+    "objectID": "en/about.html",
+    "href": "en/about.html",
+    "title": "About",
+    "section": "",
+    "text": "1996\n\nB.E., College of Engineering Sciences, University of Tsukuba\n\n1998\n\nM.Eng., Graduate School of Engineering, University of Tsukuba\n\n2010\n\nM.A. in Statistics, Columbia University\n\n2016\n\nPh.D. in Statistical Science, SOKENDAI (The Graduate University for Advanced Studies)",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "en/about.html#education",
+    "href": "en/about.html#education",
+    "title": "About",
+    "section": "",
+    "text": "1996\n\nB.E., College of Engineering Sciences, University of Tsukuba\n\n1998\n\nM.Eng., Graduate School of Engineering, University of Tsukuba\n\n2010\n\nM.A. in Statistics, Columbia University\n\n2016\n\nPh.D. in Statistical Science, SOKENDAI (The Graduate University for Advanced Studies)",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "en/about.html#appointments",
+    "href": "en/about.html#appointments",
+    "title": "About",
+    "section": "Appointments",
+    "text": "Appointments\n\n\n1998–2022\n\nTokyo Electric Power Company — TODO: summarise progression\n\n2022–\n\nProfessor, Institute for Data Science Education, Tokyo International University\n\n\nTODO: confirm whether to publish\n\n2025–\n\nFounder, TAKEDATA ANALYTICS LLC",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "en/about.html#todo-20212026",
+    "href": "en/about.html#todo-20212026",
+    "title": "About",
+    "section": "TODO: 2021–2026",
+    "text": "TODO: 2021–2026",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "en/about.html#expertise",
+    "href": "en/about.html#expertise",
+    "title": "About",
+    "section": "Expertise",
+    "text": "Expertise\nTODO",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "en/writing.html",
+    "href": "en/writing.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Peer-reviewed international journals\n\n\n\n\n\n\n\nYear\nTitle\nVenue\n\n\n\n\n2017\nShort-Term Ensemble Forecast for Purchased Photovoltaic Generation\nSolar Energy, 149, 176–187\n\n\n2016\nUsing the Ensemble Kalman Filter for Electricity Load Forecasting and Analysis\nEnergy, 104, 184–198\n\n\n\nTODO: add IEEJ / domestic journals.",
+    "crumbs": [
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "en/writing.html#peer-reviewed",
+    "href": "en/writing.html#peer-reviewed",
+    "title": "Publications",
+    "section": "",
+    "text": "Peer-reviewed international journals\n\n\n\n\n\n\n\nYear\nTitle\nVenue\n\n\n\n\n2017\nShort-Term Ensemble Forecast for Purchased Photovoltaic Generation\nSolar Energy, 149, 176–187\n\n\n2016\nUsing the Ensemble Kalman Filter for Electricity Load Forecasting and Analysis\nEnergy, 104, 184–198\n\n\n\nTODO: add IEEJ / domestic journals.",
+    "crumbs": [
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "en/writing.html#dissertation",
+    "href": "en/writing.html#dissertation",
+    "title": "Publications",
+    "section": "Dissertation",
+    "text": "Dissertation\nElectricity Load Forecasting: Ensemble Approach, SOKENDAI, 2016.",
+    "crumbs": [
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "en/writing.html#patents",
+    "href": "en/writing.html#patents",
+    "title": "Publications",
+    "section": "Patents",
+    "text": "Patents\nTODO: six applications.",
+    "crumbs": [
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "en/writing.html#talks",
+    "href": "en/writing.html#talks",
+    "title": "Publications",
+    "section": "Talks",
+    "text": "Talks\nTODO",
+    "crumbs": [
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "en/work.html",
+    "href": "en/work.html",
+    "title": "Work",
+    "section": "",
+    "text": "TODO",
+    "crumbs": [
+      "Work"
+    ]
+  },
+  {
+    "objectID": "en/work.html#electricity-load-forecasting",
+    "href": "en/work.html#electricity-load-forecasting",
+    "title": "Work",
+    "section": "",
+    "text": "TODO",
+    "crumbs": [
+      "Work"
+    ]
+  },
+  {
+    "objectID": "en/work.html#electricity-market-price-forecasting",
+    "href": "en/work.html#electricity-market-price-forecasting",
+    "title": "Work",
+    "section": "Electricity Market Price Forecasting",
+    "text": "Electricity Market Price Forecasting\nTODO",
+    "crumbs": [
+      "Work"
+    ]
+  },
+  {
+    "objectID": "en/work.html#renewable-energy-forecasting",
+    "href": "en/work.html#renewable-energy-forecasting",
+    "title": "Work",
+    "section": "Renewable Energy Forecasting",
+    "text": "Renewable Energy Forecasting\nTODO",
+    "crumbs": [
+      "Work"
+    ]
+  },
+  {
+    "objectID": "en/work.html#weather-forecast-integration",
+    "href": "en/work.html#weather-forecast-integration",
+    "title": "Work",
+    "section": "Weather Forecast Integration",
+    "text": "Weather Forecast Integration\nTODO",
+    "crumbs": [
+      "Work"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "経歴",
+    "section": "",
+    "text": "1996年\n\n筑波大学 第三学群 基礎工学類 卒業［工学士］\n\n1998年\n\n筑波大学大学院 工学研究科 構造工学専攻［工学修士］\n\n2010年\n\nColumbia University, Department of Statistics［M.A. in Statistics］\n\n2016年\n\n総合研究大学院大学 複合科学研究科 統計科学専攻［博士（統計科学）］",
+    "crumbs": [
+      "経歴"
+    ]
+  },
+  {
+    "objectID": "about.html#学歴",
+    "href": "about.html#学歴",
+    "title": "経歴",
+    "section": "",
+    "text": "1996年\n\n筑波大学 第三学群 基礎工学類 卒業［工学士］\n\n1998年\n\n筑波大学大学院 工学研究科 構造工学専攻［工学修士］\n\n2010年\n\nColumbia University, Department of Statistics［M.A. in Statistics］\n\n2016年\n\n総合研究大学院大学 複合科学研究科 統計科学専攻［博士（統計科学）］",
+    "crumbs": [
+      "経歴"
+    ]
+  },
+  {
+    "objectID": "about.html#職歴",
+    "href": "about.html#職歴",
+    "title": "経歴",
+    "section": "職歴",
+    "text": "職歴\n\n\n1998–2022年\n\n東京電力 —— TODO: 所属変遷の要約（研究員 → 主幹研究員、応用統計技術スペシャリスト認定）\n\n2022年–\n\n東京国際大学 データサイエンス教育研究所 教授\n\n\nTODO: 掲載可否を確認中\n\n2025年–\n\nタケデータ・アナリティクス合同会社 代表",
+    "crumbs": [
+      "経歴"
+    ]
+  },
+  {
+    "objectID": "about.html#todo-20212026年",
+    "href": "about.html#todo-20212026年",
+    "title": "経歴",
+    "section": "TODO: 2021–2026年",
+    "text": "TODO: 2021–2026年",
+    "crumbs": [
+      "経歴"
+    ]
+  },
+  {
+    "objectID": "about.html#専門分野",
+    "href": "about.html#専門分野",
+    "title": "経歴",
+    "section": "専門分野",
+    "text": "専門分野\nTODO: スキルを4群に整理して記述（予測 / HPC / データ基盤 / インフラ）",
+    "crumbs": [
+      "経歴"
+    ]
+  },
+  {
+    "objectID": "writing.html",
+    "href": "writing.html",
+    "title": "研究業績",
+    "section": "",
+    "text": "査読付き国際誌\n\n\n\n\n\n\n\n年\n題目\n掲載誌\n\n\n\n\n2017\nShort-Term Ensemble Forecast for Purchased Photovoltaic Generation\nSolar Energy, 149, 176–187\n\n\n2016\nUsing the Ensemble Kalman Filter for Electricity Load Forecasting and Analysis\nEnergy, 104, 184–198\n\n\n\nTODO: 国内誌（電気学会論文誌、人工知能、エネルギー・資源）を追加する。",
+    "crumbs": [
+      "研究業績"
+    ]
+  },
+  {
+    "objectID": "writing.html#査読付き論文",
+    "href": "writing.html#査読付き論文",
+    "title": "研究業績",
+    "section": "",
+    "text": "査読付き国際誌\n\n\n\n\n\n\n\n年\n題目\n掲載誌\n\n\n\n\n2017\nShort-Term Ensemble Forecast for Purchased Photovoltaic Generation\nSolar Energy, 149, 176–187\n\n\n2016\nUsing the Ensemble Kalman Filter for Electricity Load Forecasting and Analysis\nEnergy, 104, 184–198\n\n\n\nTODO: 国内誌（電気学会論文誌、人工知能、エネルギー・資源）を追加する。",
+    "crumbs": [
+      "研究業績"
+    ]
+  },
+  {
+    "objectID": "writing.html#学位論文",
+    "href": "writing.html#学位論文",
+    "title": "研究業績",
+    "section": "学位論文",
+    "text": "学位論文\nElectricity Load Forecasting: Ensemble Approach 総合研究大学院大学, 2016年.\nTODO: 本文 PDF を公開するか、機関リポジトリへリンクするか決める。",
+    "crumbs": [
+      "研究業績"
+    ]
+  },
+  {
+    "objectID": "writing.html#特許",
+    "href": "writing.html#特許",
+    "title": "研究業績",
+    "section": "特許",
+    "text": "特許\nTODO: 出願6件を表にする（設備保全支援装置ほか）。",
+    "crumbs": [
+      "研究業績"
+    ]
+  },
+  {
+    "objectID": "writing.html#講演",
+    "href": "writing.html#講演",
+    "title": "研究業績",
+    "section": "講演",
+    "text": "講演\nTODO: 国際会議・招待講演を列挙する。",
+    "crumbs": [
+      "研究業績"
+    ]
+  },
+  {
+    "objectID": "writing.html#todo-2021年以降",
+    "href": "writing.html#todo-2021年以降",
+    "title": "研究業績",
+    "section": "TODO: 2021年以降",
+    "text": "TODO: 2021年以降",
+    "crumbs": [
+      "研究業績"
+    ]
+  },
+  {
+    "objectID": "work.html",
+    "href": "work.html",
+    "title": "専門領域",
+    "section": "",
+    "text": "TODO: 9エリア + 全国、時間別／30分値。状態空間モデルとアンサンブルフィルタ。\n\n\n\n\n\n\n\n図 1: 状態空間モデルによる需要分解\n\n\n\n\n\n\n\n\n\nノート補足\n\n\n\nTODO: NEDO「日本版コネクト&マネージ」で本邦標準として採用（2021年3月）の経緯。",
+    "crumbs": [
+      "専門領域"
+    ]
+  },
+  {
+    "objectID": "work.html#電力需要予測",
+    "href": "work.html#電力需要予測",
+    "title": "専門領域",
+    "section": "",
+    "text": "TODO: 9エリア + 全国、時間別／30分値。状態空間モデルとアンサンブルフィルタ。\n\n\n\n\n\n\n\n図 1: 状態空間モデルによる需要分解\n\n\n\n\n\n\n\n\n\nノート補足\n\n\n\nTODO: NEDO「日本版コネクト&マネージ」で本邦標準として採用（2021年3月）の経緯。",
+    "crumbs": [
+      "専門領域"
+    ]
+  },
+  {
+    "objectID": "work.html#電力市場価格予測",
+    "href": "work.html#電力市場価格予測",
+    "title": "専門領域",
+    "section": "電力市場価格予測",
+    "text": "電力市場価格予測\nTODO: JEPX スポット・時間前市場、価格カーブ。",
+    "crumbs": [
+      "専門領域"
+    ]
+  },
+  {
+    "objectID": "work.html#再生可能エネルギー予測",
+    "href": "work.html#再生可能エネルギー予測",
+    "title": "専門領域",
+    "section": "再生可能エネルギー予測",
+    "text": "再生可能エネルギー予測\nTODO: 太陽光・風力の30分値。積雪時の推定（拡張 Lambert–Beer 則）。",
+    "crumbs": [
+      "専門領域"
+    ]
+  },
+  {
+    "objectID": "work.html#気象予測の統合",
+    "href": "work.html#気象予測の統合",
+    "title": "専門領域",
+    "section": "気象予測の統合",
+    "text": "気象予測の統合\nTODO: 気象庁 LFM/アメダス、Open-Meteo、民間予報のバイアス補正とアンサンブル・ブレンド。",
+    "crumbs": [
+      "専門領域"
+    ]
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "連絡先",
+    "section": "",
+    "text": "TODO: 掲載する所属を確定する（大学 / 会社 / 両方）。",
+    "crumbs": [
+      "連絡先"
+    ]
+  },
+  {
+    "objectID": "contact.html#所属",
+    "href": "contact.html#所属",
+    "title": "連絡先",
+    "section": "",
+    "text": "TODO: 掲載する所属を確定する（大学 / 会社 / 両方）。",
+    "crumbs": [
+      "連絡先"
+    ]
+  },
+  {
+    "objectID": "contact.html#メール",
+    "href": "contact.html#メール",
+    "title": "連絡先",
+    "section": "メール",
+    "text": "メール\nTODO: 公開用アドレスを決める。",
+    "crumbs": [
+      "連絡先"
+    ]
+  },
+  {
+    "objectID": "contact.html#リンク",
+    "href": "contact.html#リンク",
+    "title": "連絡先",
+    "section": "リンク",
+    "text": "リンク\n\nGitHub\nタケデータ・アナリティクス合同会社\nTODO: ORCID / Google Scholar / researchmap",
+    "crumbs": [
+      "連絡先"
+    ]
+  },
+  {
+    "objectID": "index.html#todo-3つの訴求点",
+    "href": "index.html#todo-3つの訴求点",
+    "title": "竹田 恒",
+    "section": "TODO: 3つの訴求点",
+    "text": "TODO: 3つの訴求点",
+    "crumbs": [
+      "ホーム"
+    ]
+  },
+  {
+    "objectID": "index.html#リンク",
+    "href": "index.html#リンク",
+    "title": "竹田 恒",
+    "section": "リンク",
+    "text": "リンク\n\nGitHub\nタケデータ・アナリティクス合同会社",
+    "crumbs": [
+      "ホーム"
+    ]
+  },
+  {
+    "objectID": "engineering.html",
+    "href": "engineering.html",
+    "title": "技術スタック",
+    "section": "",
+    "text": "flowchart LR\n  W[気象データ] --&gt; B[バイアス補正]\n  T[TSO 実績] --&gt; F\n  B --&gt; F[予測モデル]\n  F --&gt; S[配信]\n\n\n\n\n図 1: 予測パイプラインの概略",
+    "crumbs": [
+      "技術スタック"
+    ]
+  },
+  {
+    "objectID": "engineering.html#処理の流れ",
+    "href": "engineering.html#処理の流れ",
+    "title": "技術スタック",
+    "section": "",
+    "text": "flowchart LR\n  W[気象データ] --&gt; B[バイアス補正]\n  T[TSO 実績] --&gt; F\n  B --&gt; F[予測モデル]\n  F --&gt; S[配信]\n\n\n\n\n図 1: 予測パイプラインの概略",
+    "crumbs": [
+      "技術スタック"
+    ]
+  },
+  {
+    "objectID": "engineering.html#使用技術",
+    "href": "engineering.html#使用技術",
+    "title": "技術スタック",
+    "section": "使用技術",
+    "text": "使用技術\n\n\n計算データ配信\n\n\nTODO: Fortran（coarray 並列）、Intel MKL / MPI、LAPACK。\n\n\nTODO: DuckDB、Parquet、R。\n\n\nTODO: Next.js、nginx、AWS 東京リージョン。",
+    "crumbs": [
+      "技術スタック"
+    ]
+  },
+  {
+    "objectID": "engineering.html#このサイトについて",
+    "href": "engineering.html#このサイトについて",
+    "title": "技術スタック",
+    "section": "このサイトについて",
+    "text": "このサイトについて\nこのサイトは Quarto で作成し、GitHub Actions でビルドしています。 各ページ右上の「&lt;/&gt; Code」から、そのページの .qmd ソースを表示できます。",
+    "crumbs": [
+      "技術スタック"
+    ]
+  },
+  {
+    "objectID": "en/contact.html",
+    "href": "en/contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "TODO",
+    "crumbs": [
+      "Contact"
+    ]
+  },
+  {
+    "objectID": "en/contact.html#affiliation",
+    "href": "en/contact.html#affiliation",
+    "title": "Contact",
+    "section": "",
+    "text": "TODO",
+    "crumbs": [
+      "Contact"
+    ]
+  },
+  {
+    "objectID": "en/contact.html#email",
+    "href": "en/contact.html#email",
+    "title": "Contact",
+    "section": "Email",
+    "text": "Email\nTODO",
+    "crumbs": [
+      "Contact"
+    ]
+  },
+  {
+    "objectID": "en/contact.html#links",
+    "href": "en/contact.html#links",
+    "title": "Contact",
+    "section": "Links",
+    "text": "Links\n\nGitHub\nTAKEDATA ANALYTICS LLC\nTODO: ORCID / Google Scholar / researchmap",
+    "crumbs": [
+      "Contact"
+    ]
+  },
+  {
+    "objectID": "en/index.html#todo-three-proof-points",
+    "href": "en/index.html#todo-three-proof-points",
+    "title": "Hisashi Takeda",
+    "section": "TODO: three proof points",
+    "text": "TODO: three proof points",
+    "crumbs": [
+      "English"
+    ]
+  },
+  {
+    "objectID": "en/index.html#links",
+    "href": "en/index.html#links",
+    "title": "Hisashi Takeda",
+    "section": "Links",
+    "text": "Links\n\nGitHub\nTAKEDATA ANALYTICS LLC",
+    "crumbs": [
+      "English"
+    ]
+  },
+  {
+    "objectID": "en/engineering.html",
+    "href": "en/engineering.html",
+    "title": "Engineering",
+    "section": "",
+    "text": "flowchart LR\n  W[Weather data] --&gt; B[Bias correction]\n  T[TSO actuals] --&gt; F\n  B --&gt; F[Forecast models]\n  F --&gt; S[Delivery]\n\n\n\n\nFigure 1: Forecasting pipeline",
+    "crumbs": [
+      "Engineering"
+    ]
+  },
+  {
+    "objectID": "en/engineering.html#pipeline",
+    "href": "en/engineering.html#pipeline",
+    "title": "Engineering",
+    "section": "",
+    "text": "flowchart LR\n  W[Weather data] --&gt; B[Bias correction]\n  T[TSO actuals] --&gt; F\n  B --&gt; F[Forecast models]\n  F --&gt; S[Delivery]\n\n\n\n\nFigure 1: Forecasting pipeline",
+    "crumbs": [
+      "Engineering"
+    ]
+  },
+  {
+    "objectID": "en/engineering.html#stack",
+    "href": "en/engineering.html#stack",
+    "title": "Engineering",
+    "section": "Stack",
+    "text": "Stack\n\nComputeDataServing\n\n\nTODO: Fortran (coarray), Intel MKL / MPI, LAPACK.\n\n\nTODO: DuckDB, Parquet, R.\n\n\nTODO: Next.js, nginx, AWS Tokyo.",
+    "crumbs": [
+      "Engineering"
+    ]
+  },
+  {
+    "objectID": "en/engineering.html#about-this-site",
+    "href": "en/engineering.html#about-this-site",
+    "title": "Engineering",
+    "section": "About this site",
+    "text": "About this site\nBuilt with Quarto and published by GitHub Actions. Use the “&lt;/&gt; Code” menu on any page to view its .qmd source.",
+    "crumbs": [
+      "Engineering"
+    ]
+  }
+]
