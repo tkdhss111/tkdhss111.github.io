@@ -1,282 +1,37 @@
 [
   {
-    "objectID": "index.html#統計モデルから運用システムまで",
-    "href": "index.html#統計モデルから運用システムまで",
+    "objectID": "index.html#研究教育分野",
+    "href": "index.html#研究教育分野",
     "title": "竹田 恒",
-    "section": "統計モデルから運用システムまで",
-    "text": "統計モデルから運用システムまで\n電力需要予測を専門とし、20年以上にわたり研究開発に従事してきました。 統計モデルの設計だけでなく、実際に電力会社の業務で動く予測システムの実装までを 一貫して手がけています。",
-    "crumbs": [
-      "ホーム"
-    ]
+    "section": "研究・教育分野",
+    "text": "研究・教育分野\n統計科学、時系列解析、データ同化。 電力需要予測、再生可能エネルギー発電量予測、電力市場価格予測。 統計学・機械学習・R プログラミングの教育。"
   },
   {
-    "objectID": "index.html#実務と理論の両方から",
-    "href": "index.html#実務と理論の両方から",
+    "objectID": "index.html#学歴",
+    "href": "index.html#学歴",
     "title": "竹田 恒",
-    "section": "実務と理論の両方から",
-    "text": "実務と理論の両方から\n電力会社の研究所で実務課題に取り組みながら統計科学の博士号を取得し、 アンサンブル・データ同化に基づく予測手法を査読付き国際誌に発表してきました。 現在は大学で教育・研究に携わりつつ、自ら設立した会社で予測技術の社会実装を進めています。",
-    "crumbs": [
-      "ホーム"
-    ]
+    "section": "学歴",
+    "text": "学歴\n\n\n\n2016年\n\n総合研究大学院大学 複合科学研究科 統計科学専攻 博士後期課程 修了 ［博士（統計科学）］\n\n2010年\n\nColumbia University, Department of Statistics ［M.A. in Statistics］\n\n1998年\n\n筑波大学大学院 工学研究科 構造工学専攻［工学修士］\n\n1996年\n\n筑波大学 第三学群 基礎工学類 卒業［工学士］"
   },
   {
-    "objectID": "index.html#予測を届くかたちに",
-    "href": "index.html#予測を届くかたちに",
+    "objectID": "index.html#職歴",
+    "href": "index.html#職歴",
     "title": "竹田 恒",
-    "section": "予測を、届くかたちに",
-    "text": "予測を、届くかたちに\n需要・太陽光・風力・市場価格の予測を、気象数値予報の取り込みから 配信基盤までまとめて設計・構築しています。",
-    "crumbs": [
-      "ホーム"
-    ]
-  },
-  {
-    "objectID": "index.html#リンク",
-    "href": "index.html#リンク",
-    "title": "竹田 恒",
-    "section": "リンク",
-    "text": "リンク\n\nGitHub\nタケデータ・アナリティクス合同会社",
-    "crumbs": [
-      "ホーム"
-    ]
-  },
-  {
-    "objectID": "writing.html",
-    "href": "writing.html",
-    "title": "研究業績",
-    "section": "",
-    "text": "査読付き国際誌\n\n\n\n\n\n\n\n年\n題目\n掲載誌\n\n\n\n\n2017\nShort-Term Ensemble Forecast for Purchased Photovoltaic Generation\nSolar Energy, 149, 176–187\n\n\n2016\nUsing the Ensemble Kalman Filter for Electricity Load Forecasting and Analysis\nEnergy, 104, 184–198\n\n\n\nTODO: 国内誌（電気学会論文誌、人工知能、エネルギー・資源）を追加する。",
-    "crumbs": [
-      "研究業績"
-    ]
-  },
-  {
-    "objectID": "writing.html#査読付き論文",
-    "href": "writing.html#査読付き論文",
-    "title": "研究業績",
-    "section": "",
-    "text": "査読付き国際誌\n\n\n\n\n\n\n\n年\n題目\n掲載誌\n\n\n\n\n2017\nShort-Term Ensemble Forecast for Purchased Photovoltaic Generation\nSolar Energy, 149, 176–187\n\n\n2016\nUsing the Ensemble Kalman Filter for Electricity Load Forecasting and Analysis\nEnergy, 104, 184–198\n\n\n\nTODO: 国内誌（電気学会論文誌、人工知能、エネルギー・資源）を追加する。",
-    "crumbs": [
-      "研究業績"
-    ]
-  },
-  {
-    "objectID": "writing.html#学位論文",
-    "href": "writing.html#学位論文",
-    "title": "研究業績",
-    "section": "学位論文",
-    "text": "学位論文\nElectricity Load Forecasting: Ensemble Approach 総合研究大学院大学, 2016年.\nTODO: 本文 PDF を公開するか、機関リポジトリへリンクするか決める。",
-    "crumbs": [
-      "研究業績"
-    ]
-  },
-  {
-    "objectID": "writing.html#特許",
-    "href": "writing.html#特許",
-    "title": "研究業績",
-    "section": "特許",
-    "text": "特許\nTODO: 出願6件を表にする（設備保全支援装置ほか）。",
-    "crumbs": [
-      "研究業績"
-    ]
-  },
-  {
-    "objectID": "writing.html#講演",
-    "href": "writing.html#講演",
-    "title": "研究業績",
-    "section": "講演",
-    "text": "講演\nTODO: 国際会議・招待講演を列挙する。",
-    "crumbs": [
-      "研究業績"
-    ]
-  },
-  {
-    "objectID": "writing.html#todo-2021年以降",
-    "href": "writing.html#todo-2021年以降",
-    "title": "研究業績",
-    "section": "TODO: 2021年以降",
-    "text": "TODO: 2021年以降",
-    "crumbs": [
-      "研究業績"
-    ]
-  },
-  {
-    "objectID": "work.html",
-    "href": "work.html",
-    "title": "専門領域",
-    "section": "",
-    "text": "TODO: 9エリア + 全国、時間別／30分値。状態空間モデルとアンサンブルフィルタ。\n\n\n\n\n\n\n\n図 1: 状態空間モデルによる需要分解\n\n\n\n\n\n\n\n\n\nノート補足\n\n\n\nTODO: NEDO「日本版コネクト&マネージ」で本邦標準として採用（2021年3月）の経緯。",
-    "crumbs": [
-      "専門領域"
-    ]
-  },
-  {
-    "objectID": "work.html#電力需要予測",
-    "href": "work.html#電力需要予測",
-    "title": "専門領域",
-    "section": "",
-    "text": "TODO: 9エリア + 全国、時間別／30分値。状態空間モデルとアンサンブルフィルタ。\n\n\n\n\n\n\n\n図 1: 状態空間モデルによる需要分解\n\n\n\n\n\n\n\n\n\nノート補足\n\n\n\nTODO: NEDO「日本版コネクト&マネージ」で本邦標準として採用（2021年3月）の経緯。",
-    "crumbs": [
-      "専門領域"
-    ]
-  },
-  {
-    "objectID": "work.html#電力市場価格予測",
-    "href": "work.html#電力市場価格予測",
-    "title": "専門領域",
-    "section": "電力市場価格予測",
-    "text": "電力市場価格予測\nTODO: JEPX スポット・時間前市場、価格カーブ。",
-    "crumbs": [
-      "専門領域"
-    ]
-  },
-  {
-    "objectID": "work.html#再生可能エネルギー予測",
-    "href": "work.html#再生可能エネルギー予測",
-    "title": "専門領域",
-    "section": "再生可能エネルギー予測",
-    "text": "再生可能エネルギー予測\nTODO: 太陽光・風力の30分値。積雪時の推定（拡張 Lambert–Beer 則）。",
-    "crumbs": [
-      "専門領域"
-    ]
-  },
-  {
-    "objectID": "work.html#気象予測の統合",
-    "href": "work.html#気象予測の統合",
-    "title": "専門領域",
-    "section": "気象予測の統合",
-    "text": "気象予測の統合\nTODO: 気象庁 LFM/アメダス、Open-Meteo、民間予報のバイアス補正とアンサンブル・ブレンド。",
-    "crumbs": [
-      "専門領域"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "経歴",
-    "section": "",
-    "text": "1996年\n\n筑波大学 第三学群 基礎工学類 卒業［工学士］\n\n1998年\n\n筑波大学大学院 工学研究科 構造工学専攻［工学修士］\n\n2010年\n\nColumbia University, Department of Statistics［M.A. in Statistics］\n\n2016年\n\n総合研究大学院大学 複合科学研究科 統計科学専攻［博士（統計科学）］",
-    "crumbs": [
-      "経歴"
-    ]
-  },
-  {
-    "objectID": "about.html#学歴",
-    "href": "about.html#学歴",
-    "title": "経歴",
-    "section": "",
-    "text": "1996年\n\n筑波大学 第三学群 基礎工学類 卒業［工学士］\n\n1998年\n\n筑波大学大学院 工学研究科 構造工学専攻［工学修士］\n\n2010年\n\nColumbia University, Department of Statistics［M.A. in Statistics］\n\n2016年\n\n総合研究大学院大学 複合科学研究科 統計科学専攻［博士（統計科学）］",
-    "crumbs": [
-      "経歴"
-    ]
-  },
-  {
-    "objectID": "about.html#職歴",
-    "href": "about.html#職歴",
-    "title": "経歴",
     "section": "職歴",
-    "text": "職歴\n\n\n1998–2022年\n\n東京電力 —— 研究所にて、設備保守・経営・需給運用の各分野で 統計解析とシステム開発に従事。2015年、応用統計技術のスペシャリストに認定。\n\n2022年–\n\n東京国際大学 データサイエンス教育研究所 教授\n\n2025年–\n\nタケデータ・アナリティクス合同会社 代表",
-    "crumbs": [
-      "経歴"
-    ]
+    "text": "職歴\n\n\n2025年–\n\nタケデータ・アナリティクス合同会社 代表\n\n2022年–\n\n東京国際大学 データサイエンス教育研究所 教授\n\n1998–2022年\n\n東京電力 —— 研究所にて、設備保守・経営・需給運用の各分野で 統計解析とシステム開発に従事。2015年、応用統計技術のスペシャリストに認定。"
   },
   {
-    "objectID": "about.html#todo-20212026年の活動",
-    "href": "about.html#todo-20212026年の活動",
-    "title": "経歴",
-    "section": "TODO: 2021–2026年の活動",
-    "text": "TODO: 2021–2026年の活動",
-    "crumbs": [
-      "経歴"
-    ]
+    "objectID": "index.html#主な業績",
+    "href": "index.html#主な業績",
+    "title": "竹田 恒",
+    "section": "主な業績",
+    "text": "主な業績\n\n\n2021年\n\n「新型コロナウィルス感染症流行拡大の電力需要への影響」 エネルギー・資源, 42(1), 21–24.（篠田幸男・中西良輔と共著）\n\n2020年\n\n“Estimation Method of Photovoltaic Power Output Using Extended Lambert–Beer Law” IEEJ Transactions on Power and Energy, 140, 42–48. （小田島潤・篠田幸男と共著）\n\n2020年\n\n「電力需要予測コンテスト —— オープンイノベーションへの取組み」 人工知能, 35(3), 360–365.（岡本知樹・真保崇と共著）\n\n2017年\n\n“Short-Term Ensemble Forecast for Purchased Photovoltaic Generation” Solar Energy, 149, 176–187.\n\n2016年\n\n“Using the Ensemble Kalman Filter for Electricity Load Forecasting and Analysis” Energy, 104, 184–198.（田村義保・佐藤整尚と共著）\n\n2016年\n\nElectricity Load Forecasting: Ensemble Approach 博士論文, 総合研究大学院大学."
   },
   {
-    "objectID": "about.html#専門分野",
-    "href": "about.html#専門分野",
-    "title": "経歴",
-    "section": "専門分野",
-    "text": "専門分野\n\n\n予測\n\n時系列解析、状態空間モデル、データ同化（アンサンブルフィルタ）、 回帰・一般化線形モデル、ベイズ統計\n\n対象\n\n電力需要、太陽光・風力発電量、電力市場価格、気象数値予報の補正\n\n計算\n\nR、Fortran、SQL。並列計算・大規模データ処理",
-    "crumbs": [
-      "経歴"
-    ]
-  },
-  {
-    "objectID": "engineering.html",
-    "href": "engineering.html",
-    "title": "技術スタック",
-    "section": "",
-    "text": "flowchart LR\n  W[気象データ] --&gt; B[バイアス補正]\n  T[TSO 実績] --&gt; F\n  B --&gt; F[予測モデル]\n  F --&gt; S[配信]\n\n\n\n\n図 1: 予測パイプラインの概略",
-    "crumbs": [
-      "技術スタック"
-    ]
-  },
-  {
-    "objectID": "engineering.html#処理の流れ",
-    "href": "engineering.html#処理の流れ",
-    "title": "技術スタック",
-    "section": "",
-    "text": "flowchart LR\n  W[気象データ] --&gt; B[バイアス補正]\n  T[TSO 実績] --&gt; F\n  B --&gt; F[予測モデル]\n  F --&gt; S[配信]\n\n\n\n\n図 1: 予測パイプラインの概略",
-    "crumbs": [
-      "技術スタック"
-    ]
-  },
-  {
-    "objectID": "engineering.html#使用技術",
-    "href": "engineering.html#使用技術",
-    "title": "技術スタック",
-    "section": "使用技術",
-    "text": "使用技術\n\n\n計算データ配信\n\n\nTODO: Fortran（coarray 並列）、Intel MKL / MPI、LAPACK。\n\n\nTODO: DuckDB、Parquet、R。\n\n\nTODO: Next.js、nginx、AWS 東京リージョン。",
-    "crumbs": [
-      "技術スタック"
-    ]
-  },
-  {
-    "objectID": "engineering.html#このサイトについて",
-    "href": "engineering.html#このサイトについて",
-    "title": "技術スタック",
-    "section": "このサイトについて",
-    "text": "このサイトについて\nこのサイトは Quarto で作成し、GitHub Actions でビルドしています。 各ページ右上の「&lt;/&gt; Code」から、そのページの .qmd ソースを表示できます。",
-    "crumbs": [
-      "技術スタック"
-    ]
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "連絡先",
-    "section": "",
-    "text": "TODO: 掲載する所属を確定する（大学 / 会社 / 両方）。",
-    "crumbs": [
-      "連絡先"
-    ]
-  },
-  {
-    "objectID": "contact.html#所属",
-    "href": "contact.html#所属",
-    "title": "連絡先",
-    "section": "",
-    "text": "TODO: 掲載する所属を確定する（大学 / 会社 / 両方）。",
-    "crumbs": [
-      "連絡先"
-    ]
-  },
-  {
-    "objectID": "contact.html#メール",
-    "href": "contact.html#メール",
-    "title": "連絡先",
-    "section": "メール",
-    "text": "メール\nTODO: 公開用アドレスを決める。",
-    "crumbs": [
-      "連絡先"
-    ]
-  },
-  {
-    "objectID": "contact.html#リンク",
-    "href": "contact.html#リンク",
-    "title": "連絡先",
-    "section": "リンク",
-    "text": "リンク\n\nGitHub\nタケデータ・アナリティクス合同会社\nTODO: ORCID / Google Scholar / researchmap",
-    "crumbs": [
-      "連絡先"
-    ]
+    "objectID": "index.html#連絡先",
+    "href": "index.html#連絡先",
+    "title": "竹田 恒",
+    "section": "連絡先",
+    "text": "連絡先\n\nEmail: htakeda@tiu.ac.jp\nGitHub\nタケデータ・アナリティクス合同会社"
   }
 ]
