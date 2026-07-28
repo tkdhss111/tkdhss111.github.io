@@ -1,0 +1,20 @@
+---
+# English mirror. Set lang: en to override the site-wide lang: ja in _quarto.yml.
+title: "Hisashi Takeda"
+subtitle: "竹田 恒"
+lang: en
+toc: false
+---
+
+<img src="../fig/self.png" class="profile-photo" alt="Hisashi Takeda">
+
+::: {.tagline}
+TODO: one-line identity (mirror of the Japanese page).
+:::
+
+## TODO: three proof points
+
+## Links
+
+- [GitHub](https://github.com/tkdhss111)
+- [TAKEDATA ANALYTICS LLC](https://takedata.co.jp)

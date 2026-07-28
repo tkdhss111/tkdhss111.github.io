@@ -1,0 +1,41 @@
+---
+title: "About"
+lang: en
+toc-depth: 2
+---
+
+## Education
+
+::: {.timeline}
+1996
+:   B.E., College of Engineering Sciences, University of Tsukuba
+
+1998
+:   M.Eng., Graduate School of Engineering, University of Tsukuba
+
+2010
+:   M.A. in Statistics, Columbia University
+
+2016
+:   Ph.D. in Statistical Science, SOKENDAI (The Graduate University for Advanced Studies)
+:::
+
+## Appointments
+
+::: {.timeline}
+1998–2022
+:   Tokyo Electric Power Company — TODO: summarise progression
+
+2022–
+:   Professor, Institute for Data Science Education, Tokyo International University
+:   TODO: confirm whether to publish
+
+2025–
+:   Founder, TAKEDATA ANALYTICS LLC
+:::
+
+## TODO: 2021–2026
+
+## Expertise
+
+TODO

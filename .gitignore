@@ -1,0 +1,26 @@
+# ---- Private source material (NEVER commit) -------------------------------
+# Résumés and application documents containing home address, phone numbers and
+# other personal data. Kept locally for authoring only; the archive of record
+# lives on the NAS at smb://nas-dh2300-b548.local/personal_folder/.
+_sources/
+
+# ---- Quarto ---------------------------------------------------------------
+/.quarto/
+/_freeze/
+/docs/
+
+# ---- R / renv -------------------------------------------------------------
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+renv/library/
+renv/staging/
+
+# ---- OS / editor ----------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+tags
+
+**/*.quarto_ipynb

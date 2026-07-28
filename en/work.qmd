@@ -1,0 +1,22 @@
+---
+title: "Work"
+lang: en
+toc-depth: 2
+lightbox: true
+---
+
+## Electricity Load Forecasting
+
+TODO
+
+## Electricity Market Price Forecasting
+
+TODO
+
+## Renewable Energy Forecasting
+
+TODO
+
+## Weather Forecast Integration
+
+TODO

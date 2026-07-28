@@ -1,0 +1,56 @@
+---
+title: "技術スタック"
+subtitle: "Engineering"
+toc-depth: 2
+---
+
+<!--
+  このページで新しく出てくる記法:
+    1. Mermaid によるダイアグラム（```{mermaid} で囲む）
+    2. タブセット（::: {.panel-tabset}）
+-->
+
+## 処理の流れ
+
+<!--
+  Mermaid のコードブロックは、レンダリング時に図に変換される。
+  画像ファイルを別途用意しなくてよいので、構成図はこれで書くのが楽。
+-->
+
+```{mermaid}
+%%| label: fig-pipeline
+%%| fig-cap: "予測パイプラインの概略"
+flowchart LR
+  W[気象データ] --> B[バイアス補正]
+  T[TSO 実績] --> F
+  B --> F[予測モデル]
+  F --> S[配信]
+```
+
+## 使用技術
+
+<!--
+  パネルタブ。見出し（##）ごとにタブが1つできる。
+  情報量が多いページで縦に長くなるのを防ぐのに使う。
+-->
+
+::: {.panel-tabset}
+
+### 計算
+
+TODO: Fortran（coarray 並列）、Intel MKL / MPI、LAPACK。
+
+### データ
+
+TODO: DuckDB、Parquet、R。
+
+### 配信
+
+TODO: Next.js、nginx、AWS 東京リージョン。
+
+:::
+
+## このサイトについて
+
+このサイトは [Quarto](https://quarto.org) で作成し、GitHub Actions でビルドしています。
+各ページ右上の「</> Code」から、そのページの `.qmd` ソースを表示できます。

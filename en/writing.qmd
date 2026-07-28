@@ -1,0 +1,28 @@
+---
+title: "Publications"
+lang: en
+toc-depth: 2
+---
+
+## Peer-reviewed
+
+| Year | Title | Venue |
+|:-----|:------|:------|
+| 2017 | Short-Term Ensemble Forecast for Purchased Photovoltaic Generation | *Solar Energy*, 149, 176–187 |
+| 2016 | Using the Ensemble Kalman Filter for Electricity Load Forecasting and Analysis | *Energy*, 104, 184–198 |
+
+: Peer-reviewed international journals {.striped .hover}
+
+TODO: add IEEJ / domestic journals.
+
+## Dissertation
+
+**Electricity Load Forecasting: Ensemble Approach**, SOKENDAI, 2016.
+
+## Patents
+
+TODO: six applications.
+
+## Talks
+
+TODO
