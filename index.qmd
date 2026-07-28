@@ -96,6 +96,6 @@ pagetitle: "竹田 恒 | Hisashi Takeda"
 
 ## 連絡先
 
-- Email: [htakeda@tiu.ac.jp](mailto:htakeda@tiu.ac.jp)
+- [htakeda@tiu.ac.jp](mailto:htakeda@tiu.ac.jp)
 - [GitHub](https://github.com/tkdhss111)
 - [LinkedIn](https://www.linkedin.com/in/hisashi-takeda-a9072415b/)
