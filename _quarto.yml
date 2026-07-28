@@ -11,7 +11,7 @@
 
 project:
   type: website
-  output-dir: docs     # 出力先。GitHub Actions が docs/ を gh-pages ブランチへ公開する
+  output-dir: docs     # レンダリング結果の出力先（公開は quarto publish が行う）
 
 # 計算結果のキャッシュ設定。R チャンクを使っていないので実質的に無関係だが、
 # 将来チャンクを追加したときの既定として auto にしておく。
