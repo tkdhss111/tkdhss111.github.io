@@ -24,11 +24,12 @@ toc-depth: 2
 
 ::: {.timeline}
 1998–2022
-:   Tokyo Electric Power Company — TODO: summarise progression
+:   Tokyo Electric Power Company — statistical analysis and system development at the
+    research institute, spanning asset maintenance, corporate planning, and supply–demand
+    operations. Certified Specialist in Applied Statistics, 2015.
 
 2022–
 :   Professor, Institute for Data Science Education, Tokyo International University
-:   TODO: confirm whether to publish
 
 2025–
 :   Founder, TAKEDATA ANALYTICS LLC
@@ -38,4 +39,15 @@ toc-depth: 2
 
 ## Expertise
 
-TODO
+::: {.timeline}
+Methods
+:   Time series analysis, state-space models, data assimilation (ensemble filters),
+    regression and generalized linear models, Bayesian statistics
+
+Domains
+:   Electricity load, photovoltaic and wind generation, power market prices,
+    numerical weather prediction bias correction
+
+Computing
+:   R, Fortran, SQL; parallel computing and large-scale data processing
+:::
