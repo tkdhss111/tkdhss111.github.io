@@ -18,7 +18,7 @@ pagetitle: "竹田 恒 | TAKEDA Hisashi"
   Markdown の中では HTML をそのまま書ける。
   class="..." で指定したスタイルは styles.css 側で定義している。
 -->
-<img src="fig/self.png" class="profile-photo" alt="竹田 恒">
+<img src="fig/self.jpg" class="profile-photo" alt="竹田 恒">
 
 ::: {.tagline}
 東京国際大学 データサイエンス教育研究所 教授
