@@ -139,8 +139,13 @@ quarto --version
 | ファイル | 書き換える箇所 |
 |:--|:--|
 | `index.qmd` | 氏名、所属、研究分野、学歴、職歴、業績、連絡先 |
-| `_quarto.yml` | `title`、`site-url`、`repo-url` |
+| `_quarto.yml` | `title`、`site-url`、`repo-url`、`favicon` |
 | `fig/` | 顔写真とファビコン画像 |
+
+> **ファビコンは必ず差し替えてください。**
+> `fig/tkd_crest_sakura.png` は作成者の家紋です。
+> 自分の画像に差し替えるか、`_quarto.yml` の `favicon:` の行を削除します
+> （ファビコンは無くても問題ありません）。
 
 `index.qmd` と `_quarto.yml` には、設定の意味を説明するコメントが
 書いてあります。まずそれを読んでから書き換えてください。
