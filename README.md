@@ -53,7 +53,14 @@ GitHub Actions がビルドして `gh-pages` ブランチへ公開する。
 ## 手順 2. RStudio でプロジェクトとして開く
 
 まず、GitHub の自分のリポジトリのページで緑色の **Code** ボタンを押し、
-表示される HTTPS の URL をコピーします。
+**SSH** タブに切り替えて、表示される URL をコピーします。
+
+```
+git@github.com:<ユーザー名>/<ユーザー名>.github.io.git
+```
+
+> **HTTPS** タブの URL（`https://github.com/...`）ではありません。
+> SSH 鍵で接続するので、SSH タブのものを使います。
 
 RStudio で次のように進みます。
 
@@ -163,29 +170,15 @@ git commit -m "自己紹介ページを書いた"
 git push
 ```
 
-### 初回の push で認証を求められたら
-
-`Username` と `Password` を聞かれます。ここで **GitHub のログインパスワードは使えません**。
-代わりに「個人アクセストークン（Personal Access Token）」を作って、
-それを `Password` として貼り付けます。
-
-1. GitHub 右上の自分のアイコン → **Settings**
-2. 左メニューのいちばん下 **Developer settings**
-3. **Personal access tokens → Tokens (classic)**
-4. **Generate new token (classic)** を押す
-5. **Note** に用途（例：`rstudio`）を書き、**Expiration** を選ぶ
-6. **Select scopes** で **`repo`** にチェックを入れる
-7. **Generate token** を押し、表示された文字列をコピーする
-
-> トークンは**その画面を離れると二度と表示されません**。
-> 必ずコピーして、パスワード管理ソフトなどに保存してください。
-
-`Username` には GitHub のユーザー名、`Password` にはコピーしたトークンを入力します。
-毎回入力したくない場合は、一度だけ次を実行しておくと保存されます。
+SSH 鍵を設定してあれば、ユーザー名やパスワードは聞かれません。
+`Permission denied (publickey)` と出た場合は、鍵が使える状態になっていません。
+**Terminal** タブで接続を確かめてください。
 
 ```sh
-git config --global credential.helper store
+ssh -T git@github.com
 ```
+
+`Hi <ユーザー名>! You've successfully authenticated...` と返れば正常です。
 
 ## 手順 9. 公開されたか確認する
 
@@ -250,7 +243,8 @@ Markdown 中の HTML コメント（`<!-- -->`）も、そのまま出力に残�
 | README がそのまま表示される | 手順 4 の Source が `main` のままになっている |
 | リポジトリ名を間違えた | Settings → General → Repository name で変更できる |
 | ファイルが消えた | 手順 3 の途中で `git switch main` を忘れていないか確認 |
-| push で認証エラーになる | パスワードではなくトークンを使う（手順 8 の後半を参照） |
+| `Permission denied (publickey)` | SSH 鍵が使えていない（手順 8 の `ssh -T` で確認する） |
+| ユーザー名とパスワードを聞かれる | HTTPS の URL で clone している。`git remote set-url origin git@github.com:<ユーザー名>/<ユーザー名>.github.io.git` で切り替える |
 | `git` が使えない | Console タブに打っていないか確認する（Terminal タブで実行する） |
 | Terminal タブが無い | **Tools → Terminal → New Terminal**（`Alt-Shift-M`）で開く |
 | Render ボタンが無い | `index.qmd` を開いているか確認する |
