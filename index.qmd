@@ -40,8 +40,8 @@ pagetitle: "竹田 恒 | Hisashi Takeda"
 
 ::: {.timeline}
 2016年
-:   総合研究大学院大学 複合科学研究科 統計科学専攻 博士後期課程 修了
-    ［博士（統計科学）］
+:   総合研究大学院大学 複合科学研究科 統計科学専攻（統計数理研究所）
+    博士後期課程 修了［博士（統計科学）］
 
 2010年
 :   Columbia University, Department of Statistics
