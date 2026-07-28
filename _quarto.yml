@@ -48,5 +48,4 @@ format:
     mainfont: "Klee One"
     toc: false          # 1ページなので目次は置かない
     code-copy: true
-    code-tools: true    # 「</> Code」からこのページの .qmd ソースを表示できる
     include-in-header: _includes/header.html
