@@ -21,7 +21,10 @@ execute:
 lang: ja
 
 website:
-  title: "竹田 恒"
+  # index.qmd の pagetitle と同じ文字列にしておくこと。
+  # 食い違うと Quarto がタブのタイトルに「ページ名 – サイト名」と
+  # 連結してしまい、名前が重複して表示される。
+  title: "竹田 恒 | TAKEDA Hisashi"
   site-url: https://tkdhss111.github.io
   repo-url: https://github.com/tkdhss111/tkdhss111.github.io
 
