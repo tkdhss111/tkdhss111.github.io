@@ -21,8 +21,7 @@ pagetitle: "竹田 恒 | Hisashi Takeda"
 <img src="fig/self.png" class="profile-photo" alt="竹田 恒">
 
 ::: {.tagline}
-東京国際大学 データサイエンス教育研究所 教授<br>
-タケデータ・アナリティクス合同会社 代表
+東京国際大学 データサイエンス教育研究所 教授
 :::
 
 ## 研究・教育分野
@@ -99,4 +98,3 @@ pagetitle: "竹田 恒 | Hisashi Takeda"
 
 - Email: [htakeda@tiu.ac.jp](mailto:htakeda@tiu.ac.jp)
 - [GitHub](https://github.com/tkdhss111)
-- [タケデータ・アナリティクス合同会社](https://takedata.co.jp)
