@@ -8,10 +8,10 @@
 # このサイトは1ページ構成なので、実質この1ファイルがサイト全体にあたる。
 # -----------------------------------------------------------------------------
 title: "竹田 恒"
-subtitle: "Hisashi Takeda"
+subtitle: "TAKEDA Hisashi"
 toc: false
 # pagetitle はブラウザのタブに出る <title> だけを差し替える。
-pagetitle: "竹田 恒 | Hisashi Takeda"
+pagetitle: "竹田 恒 | TAKEDA Hisashi"
 ---
 
 <!--
