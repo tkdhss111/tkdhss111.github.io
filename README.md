@@ -137,14 +137,21 @@ git push                      # GitHub にソースを保存する
 quarto publish gh-pages       # サイトを公開する
 ```
 
+> `make: command not found` と出る場合は、上の4行をそのまま
+> 1行ずつ実行しても同じことができます。
+
 ### 初回だけ聞かれること
 
 最初の1回は、`gh-pages` ブランチを作ってよいか確認されます。
 `Y` を入力して進めてください。
 
 - `gh-pages` ブランチが自動で作られます
-- GitHub Pages の公開設定も自動で行われます
-- **Settings → Pages を手作業で設定する必要はありません**
+- GitHub Pages の公開設定も、**通常は**自動で行われます
+
+> 数分待ってもページが表示されない場合だけ、
+> **Settings → Pages** を開き、Source が
+> **Deploy from a branch** ／ **`gh-pages`** ／ **`/ (root)`**
+> になっているか確認してください。
 
 > `Permission denied (publickey)` と出た場合は、SSH 鍵が使えていません。
 > **Terminal** タブで接続を確かめてください。
@@ -212,7 +219,7 @@ Markdown 中の HTML コメント（`<!-- -->`）も、そのまま出力に残�
 
 | 症状 | 原因と対処 |
 |:--|:--|
-| ページが 404 になる | 反映に数分かかる。`Ctrl-Shift-R` で再読み込みして待つ |
+| ページが 404 になる | まず数分待つ。それでも出ないなら Settings → Pages が `gh-pages` `/ (root)` か確認 |
 | README がそのまま表示される | Settings → Pages の Branch が `gh-pages` `/ (root)` か確認 |
 | リポジトリ名を間違えた | Settings → General → Repository name で変更できる |
 | `Permission denied (publickey)` | SSH 鍵が使えていない（手順 6 の `ssh -T` で確認する） |
