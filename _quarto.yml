@@ -28,6 +28,10 @@ website:
   site-url: https://tkdhss111.github.io
   repo-url: https://github.com/tkdhss111/tkdhss111.github.io
 
+  # ブラウザのタブに出るアイコン。Quarto が <link rel="icon"> を生成し、
+  # 画像を出力ディレクトリへコピーする。
+  favicon: fig/tkd_crest_sakura.png
+
   # 各ページに「ソースを見る」リンクを出す。
   # このサイトの .qmd 自体を R 授業の教材として読ませるための設定。
   repo-actions: [source]
