@@ -74,7 +74,7 @@ pagetitle: "竹田 恒 | TAKEDA Hisashi"
 2020年
 :   "Estimation Method of Photovoltaic Power Output Using Extended Lambert–Beer Law"
     *IEEJ Transactions on Power and Energy*, 140, 42–48.
-    （小田島潤・篠田幸男と共著）
+    （小田嶋淳・篠田幸男と共著）
 
 2020年
 :   「電力需要予測コンテスト —— オープンイノベーションへの取組み」
